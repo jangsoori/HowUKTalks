@@ -30,7 +30,8 @@ function Markers({ data, selectAccent, hoverAccent }) {
                 stroke: "none",
                 transform: `translate(${-SIZE / 2}px,${-SIZE}px)`,
               }}
-              onClick={() => {
+              onClick={(e) => {
+                e.stopPropagation();
                 selectAccent(city);
               }}
               onMouseOver={() => {
