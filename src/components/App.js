@@ -4,12 +4,17 @@ import "mapbox-gl/dist/mapbox-gl.css";
 
 import Header from "./Header";
 import Map from "./Map";
+import "./App.css";
+import Popup from "./Popup";
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <Map />
+      <section className="content">
+        <Map />
+        <Popup />
+      </section>
     </div>
   );
 }
