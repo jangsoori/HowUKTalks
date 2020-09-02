@@ -8,45 +8,38 @@ import { Segment, Grid, Header, Button, Embed } from "semantic-ui-react";
 function Popup({ accent, selectAccent }) {
   return (
     accent && (
-      <Segment
-        style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          width: "80%",
-          height: "80%",
-        }}
-        secondary
-        size="massive"
-      >
-        <Grid columns={2} textAlign="center">
-          <Grid.Row>{accent.name}</Grid.Row>
-          <Grid.Row verticalAlign="middle">
-            <Grid.Column>
-              <Header>Trivia</Header>
-            </Grid.Column>
-            <Grid.Column>
-              <Header>Try to understand!</Header>
-            </Grid.Column>
-          </Grid.Row>
-          <Grid.Row verticalAlign="middle">
-            <Grid.Column>hi</Grid.Column>
-            <Grid.Column>
-              <Embed
-                id={accent.videos[0]}
-                placeholder="/images/image-16by9.png"
-                source="youtube"
-              />
-            </Grid.Column>
-          </Grid.Row>
-          <Grid.Row verticalAlign="middle" style={{ height: "100%" }}>
-            <Button onClick={() => selectAccent(null)} color="red">
-              Close
-            </Button>
-          </Grid.Row>
-        </Grid>
-      </Segment>
+      <section className="popup-wrapper">
+        <div className="popup-content">
+          <p className="popup-content-header">{accent.name}</p>
+          <div className="popup-content-main">
+            <div className="popup-content-left">
+              <h2 className="popup-content-title">Trivia</h2>
+              <p className="popup-content-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam, mollitia nesciunt. Ducimus recusandae odit id saepe
+                iure fugit et harum.
+              </p>
+            </div>
+            <div className="popup-content-right">
+              <h2 className="popup-content-title">Can you understand?</h2>
+              <iframe
+                className="popup-content-video"
+                src={`https://www.youtube.com/embed/${accent.videos[0]}`}
+                frameborder="0"
+                height="100%"
+                width="100%"
+              ></iframe>
+            </div>
+          </div>
+          <Button
+            className="popup-content-close"
+            onClick={() => selectAccent(null)}
+            color="red"
+          >
+            Close
+          </Button>
+        </div>
+      </section>
     )
   );
 }
