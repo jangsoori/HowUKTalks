@@ -1,14 +1,10 @@
 import React from "react";
-import { Menu, Segment } from "semantic-ui-react";
+import { Menu, Segment, Header } from "semantic-ui-react";
 
-export default function Header() {
+export default function SiteHeader() {
   return (
-    <header className="header">
-      <Segment>
-        <Menu secondary>
-          <Menu.Item name="logo">HowUKTalks</Menu.Item>
-        </Menu>
-      </Segment>
-    </header>
+    <Menu className="header" style={{}}>
+      <Menu.Item>HowUKTalks</Menu.Item>
+    </Menu>
   );
 }
