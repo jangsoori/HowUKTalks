@@ -5,9 +5,7 @@ function accentsReducer(state = [], action) {
     case "GET_ACCENTS": {
       return { ...state, ..._.mapKeys(action.payload, "id") };
     }
-    case "GET_ACCENT": {
-      return { ...state, [action.payload.id]: action.payload };
-    }
+
     default:
       return state;
   }
@@ -18,6 +16,9 @@ function selectedAccentReducer(state = null, action) {
     case "SELECT_ACCENT": {
       return action.payload;
     }
+    case "GET_ACCENT": {
+      return action.payload;
+    }
 
     default:
       return state;
@@ -26,5 +27,6 @@ function selectedAccentReducer(state = null, action) {
 
 export default combineReducers({
   accents: accentsReducer,
+
   selectedAccent: selectedAccentReducer,
 });
