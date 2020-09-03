@@ -41,6 +41,13 @@ export const Details = (props) => {
         >
           Videos
         </NavLink>
+        <NavLink
+          activeClassName="accent-details-link active"
+          to={`${props.match.url}/people`}
+          className="accent-details-link"
+        >
+          Famous people
+        </NavLink>
       </div>
       <div className="accent-details-content">
         <Switch>
