@@ -7,7 +7,7 @@ export const DetailsWords = (props) => {
     return null;
   }
   const renderWords = () => {
-    return accent.examples.map((word) => {
+    return accent.words.map((word) => {
       return <p>{word}</p>;
     });
   };
