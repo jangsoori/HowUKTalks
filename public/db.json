@@ -10,13 +10,80 @@
       "id": "birmingham",
       "videos": ["1K7xdiUv7So", "65xVky__r6U", "6v5A765sDUE"],
       "info": "When used to describe how Brummies speak, the term Brummie is used to denote the accent of people from Birmingham, as well as distinct vocabulary. The Brummie accent is often seen as very strong, and people from outside Birmingham often think that everyone from the city speaks with the same accent. Like most places, the accent can vary across different areas. When people speak about a Brummie dialect, often they are really speaking of the dialect of the neighbouring Black Country area. This Black Country dialect is often called ‘Yam Yam’ (as are people from the Black Country) as they tend to replace the word ‘are with ‘am’. This produces sentences like the greeting, ‘how am ya?’, which can be strange for people who do not have English as a first language, as well as native English speakers! It can be difficult to tell the difference between the accents in these areas, unless the accents are very strong! The Brummie dialect includes many traditional expressions, as well as changed versions of regular English words, all peculiar to Birmingham!",
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["0121", "used to tell someone to get lost: “0121 do one”"],
+        ["A face as long as Livery Street", "a really sad face"],
+        ["Livery Street is ridiculously long"],
+        ["Ackee", "the playground game of tag"],
+        ["Aggin’", "complaining or moaning"],
+        ["Ain’t", "it is not"],
+        ["Ar", "yes, or to agree with something"],
+        [
+          "Ark at that",
+          "listen to that!  Bab",
+          "an endearing term to a female"
+        ],
+        ["Babby", "a young child"],
+        [
+          "Back of Rackhams",
+          "often used as an insult, as the back of Rackhams was thought to be a red light area"
+        ],
+        ["Black over Bill’s mother’s", "black clouds are coming"],
+        [
+          "Bill is William Shakespeare, which means the rain clouds are coming from Stratford-upon-Avon"
+        ],
+        ["Bonce", "a head"],
+        ["Bost", "it’s broken"],
+        ["Buzz", "the bus"],
+        ["Cack-handed", "a clumsy way of doing something"],
+        ["Cob", "a bread roll"],
+        ["Council pop", "tap water"],
+        ["Deff off", "to not do something"],
+        ["Ee-yar", "here you are"],
+        ["Ent", "it is not"],
+        ["Entry", "the alley between terraced houses"],
+        ["Fizzy pop", "a fizzy drink"],
+        ["Gambol", "a forward roll"],
+        ["Garage", "a petrol station"],
+        ["Gully", "an alleyway, or space round the back of houses"],
+        ["Having a Benny", "to throw a strop"],
+        ["Island", "a roundabout"],
+        [
+          "It’s raining in",
+          "rain is getting inside the house, close the window"
+        ],
+        ["Leg it", "run away"],
+        ["Mither/Myther", "pestering someone"],
+        ["Mom", "mother"],
+        ["NOT MUM"],
+        ["Mooch", "have a look around"],
+        ["Munch", "to hug/cuddle"],
+        ["Nause", "someone who makes a mess of something"],
+        ["One bomb", "to knock someone out with one punch"],
+        ["Outdoor", "the off licence"],
+        [
+          "Peaky blinder",
+          "a flat cap worn by the Birmingham gang in the 1900s"
+        ],
+        ["Pop", "squash; not to be confused with fizzy drinks"],
+        ["Rezza", "the reservoir, most likely Edgbaston"],
+        [
+          "Round the Wrekin",
+          "going the long way around (after the Wrekin Hills in Shropshire)  Tara-a-bit",
+          "see you later"
+        ],
+        ["Tea", "dinner, around 6/7pm"],
+        ["The cut", "the canal"],
+        [
+          "The Bull",
+          "a bronze statue outside the Bullring, and a general meeting place in town"
+        ],
+        ["Tip top", "a long fruit-flavoured ice lolly"],
+        ["Tot", "an alcoholic drink"],
+        ["Town", "Birmingham city centre"],
+        ["Wag", "skip school or miss a lesson on purpose"],
+        ["Wench", "an affectionate term for a young woman"],
+        ["Wooden hills", "old term for stairs"]
       ]
     },
     {
@@ -28,13 +95,13 @@
       "name": "Bristol (Bristolian)",
       "id": "bristol",
       "videos": ["iXcizut9qA8", "59w6M7L2ijU", "731WC6dBMLU"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     },
     {
@@ -46,13 +113,13 @@
       "name": "Cornwall (Cornish)",
       "id": "cornwall",
       "videos": ["tcMJWZBzYjU", "Koxl4-t3i4M"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     },
     {
@@ -64,13 +131,13 @@
       "name": "Edinburgh",
       "id": "edinburgh",
       "videos": ["JatocJtUQRM", "2lqS4JJ6Z9w"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     },
     {
@@ -82,13 +149,13 @@
       "name": "Gibraltar",
       "id": "gibraltar",
       "videos": ["fn_gUsYhDXs", "AcWhc6UF75Q"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     },
     {
@@ -100,13 +167,13 @@
       "name": "Glasgow",
       "id": "glasgow",
       "videos": ["extq6S6WZQU", "SGKoekcThLE", "QyOZTqTIF6s", "_FSWlfcg6oA"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     },
     {
@@ -118,13 +185,13 @@
       "name": "Lancashire",
       "id": "lancashire",
       "videos": ["b1jpMQWkSr0", "OktDllQvXIY"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     },
     {
@@ -136,13 +203,13 @@
       "name": "Liverpool (Scouse)",
       "id": "liverpool",
       "videos": ["hycOWmNWkHA", "mDtNE_QhO8A"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     },
     {
@@ -154,13 +221,13 @@
       "name": "London (Cockney)",
       "id": "london",
       "videos": ["1WvIwkL8oLc", "LnjGNJ5JL8w"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     },
     {
@@ -172,13 +239,13 @@
       "name": "Manchester (Mancunian)",
       "id": "manchester",
       "videos": ["GsrZk99s9LY", "eB2QbnyBe6s"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     },
     {
@@ -190,13 +257,13 @@
       "name": "Newcastle (Geordie)",
       "id": "newcastle",
       "videos": ["w2woc46LXkw"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     },
     {
@@ -208,13 +275,13 @@
       "name": "Norfolk",
       "id": "norfolk",
       "videos": ["G0wrI-vqh54", "GVLiQy_-lXY"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     },
     {
@@ -226,13 +293,13 @@
       "name": "Somerset",
       "id": "somerset",
       "videos": ["WnSrBNxNHVQ", "BErF_KpU5fw"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     },
     {
@@ -244,13 +311,13 @@
       "name": "Yorkshire",
       "id": "yorkshire",
       "videos": ["2Qx_2I9QBaA", "6jitXnalclc", "jzAD2GLfaNU"],
-      "examples": [
-        "Aggin’ – complaining or moaning.",
-        "Ark at that – listen to that!",
-        "Council pop – tap water.",
-        "Ee-yar – here you are.",
-        "Leg it – run away.",
-        "Tea – dinner, around 6/7pm."
+      "words": [
+        ["Aggin’", "complaining or moaning."],
+        ["Ark at that", "listen to that!"],
+        ["Council pop", "tap water."],
+        ["Ee-yar", "here you are."],
+        ["Leg it", "run away."],
+        ["Tea", "dinner, around 6/7pm."]
       ]
     }
   ]
