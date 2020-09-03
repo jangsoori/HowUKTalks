@@ -1,8 +1,41 @@
-.accent-details-content-words {
-  display: flex;
-  flex-direction: column;
+.accent-details-content {
+  display: grid;
+  grid-template-rows: 1fr max-content;
+  gap: 2rem;
+}
 
-  p {
+.pagination {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 1rem;
+  .active-page {
+    background-color: rgb(236, 236, 236);
+  }
+  li {
+    padding: 1rem;
+    border: 1px solid black;
+    gap: 0.5rem;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(236, 236, 236);
+    }
+  }
+}
+.pagination a {
+  color: black;
+}
+
+.words-table {
+  &-head,
+  th {
+    font-size: 1.6rem;
     padding-bottom: 1rem;
+  }
+  &-body {
+    &-word,
+    td {
+      padding: 0.5rem 0;
+    }
   }
 }

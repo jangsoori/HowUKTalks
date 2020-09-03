@@ -1,19 +1,62 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import { connect } from "react-redux";
+import Pagination from "react-js-pagination";
+
 import "./DetailsWords.scss";
 export const DetailsWords = (props) => {
+  //Pagination hooks
+  const [currentPage, setCurrentPage] = useState(1);
+  const [wordsPerPage] = useState(15);
+
+  //Only Render if accent is loaded
   const { accent } = props;
   if (!accent) {
     return null;
   }
+  //Calculate indexes of words to show
+  const indexOfLastWord = currentPage * wordsPerPage;
+  const indexOfFirstWord = indexOfLastWord - wordsPerPage;
+  const currentWords = accent.words.slice(indexOfFirstWord, indexOfLastWord);
+  //Calculate page
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+    console.log(`active page is ${pageNumber}`);
+  };
+
+  //Render words
   const renderWords = () => {
-    return accent.words.map((word) => {
-      return <p>{word}</p>;
+    return currentWords.map((word) => {
+      return (
+        <tr className="words-table-body-word">
+          <td data-column="Phrase" className="accent-word">
+            {word[0]}
+          </td>
+          <td data-column="Explanation" className="accent-explanation">
+            {word[1]}
+          </td>
+        </tr>
+      );
     });
   };
   return (
     <React.Fragment>
-      <div className="accent-details-content-words">{renderWords()}</div>
+      <table className="words-table">
+        <thead className="words-table-head">
+          <tr>
+            <th>Phrase</th>
+            <th>Explanation</th>
+          </tr>
+        </thead>
+        <tbody className="words-table-body">{renderWords()}</tbody>
+      </table>
+      <Pagination
+        activeClass="active-page"
+        activePage={currentPage}
+        itemsCountPerPage={wordsPerPage}
+        totalItemsCount={accent.words.length}
+        pageRangeDisplayed={5}
+        onChange={handlePageChange}
+      />
     </React.Fragment>
   );
 };
