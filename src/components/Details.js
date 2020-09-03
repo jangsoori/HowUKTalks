@@ -4,6 +4,7 @@ import { NavLink, Switch, Route } from "react-router-dom";
 import "./Details.scss";
 import { selectAccent, getAccent } from "../redux/actions";
 import DetailsWords from "./DetailsWords";
+import history from "../history";
 export const Details = (props) => {
   const { accent, getAccent } = props;
   useEffect(() => {
@@ -14,15 +15,27 @@ export const Details = (props) => {
   }
   return (
     <div className="accent-details">
-      <div className="accent-details-nav">
+      <div className="accent-details-header">
+        {" "}
         <h2 className="accent-details-title">{accent.name}</h2>
+      </div>
+      <div className="accent-details-nav">
         <NavLink
+          activeClassName="accent-details-link active"
+          to={`${props.match.url}/info`}
+          className="accent-details-link"
+        >
+          Info
+        </NavLink>
+        <NavLink
+          activeClassName="accent-details-link active"
           to={`${props.match.url}/words`}
           className="accent-details-link"
         >
           Words
         </NavLink>
         <NavLink
+          activeClassName="accent-details-link active"
           to={`${props.match.url}/videos`}
           className="accent-details-link"
         >
@@ -34,6 +47,12 @@ export const Details = (props) => {
           <Route exact path={`/${accent.id}/words`} component={DetailsWords} />
         </Switch>
       </div>
+      <button
+        onClick={() => history.push("/")}
+        className="accent-details-close"
+      >
+        Close
+      </button>
     </div>
   );
 };

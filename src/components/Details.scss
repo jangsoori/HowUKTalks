@@ -6,25 +6,66 @@
   width: 80%;
   height: 80%;
   z-index: 100;
-  background-color: #ddd;
+  background-color: #fff;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 8fr;
+  grid-template-rows: max-content max-content 1fr max-content;
   border-radius: 24px;
   overflow: hidden;
-  &-nav {
-    padding: 2rem;
-    display: grid;
-    grid-template-rows: max-content repeat(3, 1fr);
-    background-color: blue;
-    row-gap: 2rem;
-
+  padding: 2rem;
+  row-gap: 2rem;
+  &-header {
     .accent-details-title {
       font-size: 3rem;
     }
   }
+  &-nav {
+    justify-self: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    // column-gap: 2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    border: 1px solid black;
+
+    .accent-details-link {
+      color: black;
+      background-color: white;
+      padding: 1rem 2rem;
+      // border-radius: 1rem;
+      transition: all 0.2s;
+      text-align: center;
+      &:nth-child(2) {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+      }
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+      &.active {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
 
   &-content {
-    padding: 2rem;
+  }
+
+  .accent-details-close {
+    justify-self: start;
+    padding: 1rem 2rem;
+
+    border: 1px solid black;
+    border-radius: 2rem;
+    transition: all 0.2s;
+    color: black;
+    background-color: white;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
   }
 }
