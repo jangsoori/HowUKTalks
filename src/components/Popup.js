@@ -21,7 +21,7 @@ function Popup({ accent, selectAccent }) {
               </p>
             </div>
             <div className="popup-content-right">
-              <h2 className="popup-content-title">Can you understand?</h2>
+              <h2 className="popup-content-title">Learn it!</h2>
               <div className="popup-content-video">
                 <iframe
                   src={`https://www.youtube.com/embed/${accent.videos[0]}`}
