@@ -1,13 +1,12 @@
 import { combineReducers } from "redux";
-
-const initialState = {
-  accents: [],
-  selectedAccent: null,
-};
+import _ from "lodash";
 function accentsReducer(state = [], action) {
   switch (action.type) {
     case "GET_ACCENTS": {
-      return action.payload;
+      return { ...state, ..._.mapKeys(action.payload, "id") };
+    }
+    case "GET_ACCENT": {
+      return { ...state, [action.payload.id]: action.payload };
     }
     default:
       return state;
@@ -24,19 +23,8 @@ function selectedAccentReducer(state = null, action) {
       return state;
   }
 }
-function hoveredAccentReducer(state = null, action) {
-  switch (action.type) {
-    case "HOVER_ACCENT": {
-      return action.payload;
-    }
-
-    default:
-      return state;
-  }
-}
 
 export default combineReducers({
   accents: accentsReducer,
   selectedAccent: selectedAccentReducer,
-  hoveredAccent: hoveredAccentReducer,
 });

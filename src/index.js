@@ -2,7 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
-
+import "./reset.css";
+//ROUTER
+import { Router } from "react-router-dom";
+import history from "./history";
 //REDUX
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware, compose } from "redux";
@@ -18,9 +21,11 @@ const store = createStore(
 );
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+  <Router history={history}>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </Router>,
   document.getElementById("root")
 );
 

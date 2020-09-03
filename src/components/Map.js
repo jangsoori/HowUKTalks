@@ -1,47 +1,50 @@
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
-import ReactMapGL from "react-map-gl";
-import Popup from "./Popup";
-import "./Map.css";
+import "./Map.scss";
 import { getAccents, selectAccent } from "../redux/actions";
 import Markers from "./Markers";
-import Preview from "./Preview";
+import { Route } from "react-router-dom";
 
-function Map({ data, getAccents, selectAccent }) {
-  //Set map location for UK
-  const [viewport, setViewport] = useState({
-    // height: "100%",
-    // width: "100%",
-    latitude: 54.55,
-    longitude: -2.4333,
-    zoom: 4,
-  });
+import { GoogleMap, LoadScript } from "@react-google-maps/api";
+import Details from "./Details";
 
+function Map(props) {
+  const { data, getAccents } = props;
+  console.log(props);
   useEffect(() => {
     getAccents();
   }, []);
+  const containerStyle = {
+    width: "100%",
+    height: "100%",
+  };
 
+  const center = {
+    lat: 54.55,
+    lng: -2.4333,
+  };
   return (
     <div className="map">
-      <ReactMapGL
-        {...viewport}
-        height="100%"
-        width="100%"
-        mapStyle="mapbox://styles/mapbox/streets-v11"
-        mapboxApiAccessToken={process.env.REACT_APP_ACCESS_TOKEN}
-        onViewportChange={(nextViewport) => {
-          setViewport(nextViewport);
-        }}
-      >
-        <Markers data={data} />
-        <Preview />
-      </ReactMapGL>
-      {/* <Popup /> */}
+      <Route path="/">
+        <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS}>
+          <GoogleMap
+            mapContainerStyle={containerStyle}
+            center={center}
+            zoom={6}
+          >
+            {/* Child components, such as markers, info windows, etc. */}
+            <Markers data={data} />
+            <Route path="/:id" component={Details} />
+
+            <></>
+          </GoogleMap>
+        </LoadScript>
+      </Route>
     </div>
   );
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (state, ownProps) => {
   return { data: state.accents };
 };
 export default connect(mapStateToProps, { getAccents, selectAccent })(Map);

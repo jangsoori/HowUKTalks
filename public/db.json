@@ -1,0 +1,257 @@
+{
+  "accents": [
+    {
+      "coords": {
+        "lat": 52.49199,
+        "lng": -1.889045
+      },
+      "country": "gb",
+      "name": "Birmingham (Brummie)",
+      "id": "birmingham",
+      "videos": ["1K7xdiUv7So", "65xVky__r6U", "6v5A765sDUE"],
+      "info": "When used to describe how Brummies speak, the term Brummie is used to denote the accent of people from Birmingham, as well as distinct vocabulary. The Brummie accent is often seen as very strong, and people from outside Birmingham often think that everyone from the city speaks with the same accent. Like most places, the accent can vary across different areas. When people speak about a Brummie dialect, often they are really speaking of the dialect of the neighbouring Black Country area. This Black Country dialect is often called ‘Yam Yam’ (as are people from the Black Country) as they tend to replace the word ‘are with ‘am’. This produces sentences like the greeting, ‘how am ya?’, which can be strange for people who do not have English as a first language, as well as native English speakers! It can be difficult to tell the difference between the accents in these areas, unless the accents are very strong! The Brummie dialect includes many traditional expressions, as well as changed versions of regular English words, all peculiar to Birmingham!",
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 51.454597,
+        "lng": -2.587918
+      },
+      "country": "gb",
+      "name": "Bristol (Bristolian)",
+      "id": "bristol",
+      "videos": ["iXcizut9qA8", "59w6M7L2ijU", "731WC6dBMLU"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 50.264121,
+        "lng": -5.055756
+      },
+      "country": "gb",
+      "name": "Cornwall (Cornish)",
+      "id": "cornwall",
+      "videos": ["tcMJWZBzYjU", "Koxl4-t3i4M"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 55.953253,
+        "lng": -3.188283
+      },
+      "country": "gb",
+      "name": "Edinburgh",
+      "id": "edinburgh",
+      "videos": ["JatocJtUQRM", "2lqS4JJ6Z9w"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 36.134537,
+        "lng": -5.347682
+      },
+      "country": "gb",
+      "name": "Gibraltar",
+      "id": "gibraltar",
+      "videos": ["fn_gUsYhDXs", "AcWhc6UF75Q"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 55.86422,
+        "lng": -4.251948
+      },
+      "country": "gb",
+      "name": "Glasgow",
+      "id": "glasgow",
+      "videos": ["extq6S6WZQU", "SGKoekcThLE", "QyOZTqTIF6s", "_FSWlfcg6oA"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 53.765584,
+        "lng": -2.70316
+      },
+      "country": "gb",
+      "name": "Lancashire",
+      "id": "lancashire",
+      "videos": ["b1jpMQWkSr0", "OktDllQvXIY"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 53.414913,
+        "lng": -2.991191
+      },
+      "country": "gb",
+      "name": "Liverpool (Scouse)",
+      "id": "liverpool",
+      "videos": ["hycOWmNWkHA", "mDtNE_QhO8A"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 51.513902,
+        "lng": -0.09361
+      },
+      "country": "gb",
+      "name": "London (Cockney)",
+      "id": "london",
+      "videos": ["1WvIwkL8oLc", "LnjGNJ5JL8w"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 53.481154,
+        "lng": -2.243506
+      },
+      "country": "gb",
+      "name": "Manchester (Mancunian)",
+      "id": "manchester",
+      "videos": ["GsrZk99s9LY", "eB2QbnyBe6s"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 54.983595,
+        "lng": -1.617461
+      },
+      "country": "gb",
+      "name": "Newcastle (Geordie)",
+      "id": "newcastle",
+      "videos": ["w2woc46LXkw"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 52.626091,
+        "lng": 1.281731
+      },
+      "country": "gb",
+      "name": "Norfolk",
+      "id": "norfolk",
+      "videos": ["G0wrI-vqh54", "GVLiQy_-lXY"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 51.015174,
+        "lng": -3.102662
+      },
+      "country": "gb",
+      "name": "Somerset",
+      "id": "somerset",
+      "videos": ["WnSrBNxNHVQ", "BErF_KpU5fw"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    },
+    {
+      "coords": {
+        "lat": 53.963984,
+        "lng": -1.08833
+      },
+      "country": "gb",
+      "name": "Yorkshire",
+      "id": "yorkshire",
+      "videos": ["2Qx_2I9QBaA", "6jitXnalclc", "jzAD2GLfaNU"],
+      "examples": [
+        "Aggin’ – complaining or moaning.",
+        "Ark at that – listen to that!",
+        "Council pop – tap water.",
+        "Ee-yar – here you are.",
+        "Leg it – run away.",
+        "Tea – dinner, around 6/7pm."
+      ]
+    }
+  ]
+}
