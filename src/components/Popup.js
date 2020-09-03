@@ -22,13 +22,14 @@ function Popup({ accent, selectAccent }) {
             </div>
             <div className="popup-content-right">
               <h2 className="popup-content-title">Can you understand?</h2>
-              <iframe
-                className="popup-content-video"
-                src={`https://www.youtube.com/embed/${accent.videos[0]}`}
-                frameborder="0"
-                height="100%"
-                width="100%"
-              ></iframe>
+              <div className="popup-content-video">
+                <iframe
+                  src={`https://www.youtube.com/embed/${accent.videos[0]}`}
+                  frameborder="0"
+                  height="100%"
+                  width="100%"
+                ></iframe>
+              </div>
             </div>
           </div>
           <Button
