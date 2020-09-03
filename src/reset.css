@@ -154,6 +154,10 @@ input[type="search"] {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
+a {
+  color: white;
+  text-decoration: none;
+}
 
 textarea {
   overflow: auto;
