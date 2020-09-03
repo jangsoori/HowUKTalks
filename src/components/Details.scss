@@ -15,11 +15,16 @@
   &-nav {
     padding: 2rem;
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: max-content repeat(3, 1fr);
     background-color: blue;
+    row-gap: 2rem;
 
     .accent-details-title {
       font-size: 3rem;
     }
+  }
+
+  &-content {
+    padding: 2rem;
   }
 }
