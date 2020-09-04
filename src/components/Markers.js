@@ -13,6 +13,7 @@ function Markers({ data, selectAccent }) {
       Object.values(data).map((accent) => {
         return (
           <Marker
+            className="marker"
             title={accent.name}
             position={{ lat: accent.coords.lat, lng: accent.coords.lng }}
             onClick={(e) => {
