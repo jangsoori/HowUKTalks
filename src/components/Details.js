@@ -22,7 +22,8 @@ export const Details = (props) => {
       <div className="accent-details-nav">
         <NavLink
           activeClassName="accent-details-link active"
-          to={`${props.match.url}/info`}
+          exact
+          to={`${props.match.url}/`}
           className="accent-details-link"
         >
           Info
