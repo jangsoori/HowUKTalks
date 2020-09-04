@@ -28,7 +28,7 @@ export const DetailsWords = (props) => {
     return currentWords.map((word) => {
       return (
         <tr className="words-table-body-word">
-          <td data-column="Phrase" className="accent-word">
+          <td width="20%" data-column="Phrase" className="accent-word">
             {word[0]}
           </td>
           <td data-column="Explanation" className="accent-explanation">
@@ -43,8 +43,8 @@ export const DetailsWords = (props) => {
       <table className="words-table">
         <thead className="words-table-head">
           <tr>
-            <th>Phrase</th>
-            <th>Explanation</th>
+            <th align="left">Phrase</th>
+            <th align="left">Explanation</th>
           </tr>
         </thead>
         <tbody className="words-table-body">{renderWords()}</tbody>
