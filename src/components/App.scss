@@ -7,11 +7,17 @@ html {
 .app {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
   height: 100vh;
-  width: 100vw;
+  // width: 100vw;
   font-family: "Montserrat", sans-serif;
 }
 
 .content {
   height: 100%;
+  justify-self: stretch;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
 }
