@@ -92,12 +92,53 @@
       "id": "bristol",
       "videos": ["iXcizut9qA8", "59w6M7L2ijU", "731WC6dBMLU"],
       "words": [
-        ["Aggin’", "complaining or moaning."],
-        ["Ark at that", "listen to that!"],
-        ["Council pop", "tap water."],
-        ["Ee-yar", "here you are."],
-        ["Leg it", "run away."],
-        ["Tea", "dinner, around 6/7pm."]
+        [
+          "Me lover",
+          "My darling, my dear, mate.  This is a term of endearment and can be used for your family member, friends, acquaintances, random strangers."
+        ],
+        [
+          "Gert",
+          "A way of putting emphasis on something; used in the same way as ‘really’ or ‘very’."
+        ],
+        ["Lush", "Very, very nice. Something that is pleasing to one’s eye."],
+        [
+          "Babber",
+          "Another term of endearment meaning baby, babe, love. You get the picture."
+        ],
+        [
+          "Innit",
+          "Isn’t it just. Used a lot at the end of sentences or in response to something."
+        ],
+        ["Brizzle", "Bristol."],
+        [
+          "Drive",
+          "No, this isn’t referring to something you do with a car. Or the award-winning Ryan Gosling film. This is actually what the locals in Bristol use when they’re thanking bus drivers and taxi drivers."
+        ],
+        ["Mint", "A word that means really, really great."],
+        [
+          "Proper",
+          "Again, this is used to describe something that’s really good and pleasing to the local Bristolian."
+        ],
+        ["Where’s it to?", "Where is it?."],
+        ["…mind", "To put emphasis on something you’ve said."],
+        ["Bemmie", "Bedminster, an area south of the river in Bristol."],
+        [
+          "The Triangle",
+          "No, this isn’t referring to the three-sided shape. This is actually another area in Bristol, at the very top of Park St."
+        ],
+        [
+          "Cribbs",
+          "No, not the classic MTV TV show where celebs show you around their houses, this is in fact talking about Cribbs Causeway, a big shopping mall in Bristol."
+        ],
+        ["Gashead", "Someone who supports Bristol Rovers football team."],
+        [
+          "Jason Donervan",
+          "Only the very best chip van in the whole of Bristol. Where you go after a night on the Triangle (see three points above)."
+        ],
+        [
+          "Keener",
+          "Someone who is very studious and eager to please. Used a lot through your school years."
+        ]
       ]
     },
     {
@@ -110,12 +151,97 @@
       "id": "cornwall",
       "videos": ["tcMJWZBzYjU", "Koxl4-t3i4M"],
       "words": [
-        ["Aggin’", "complaining or moaning."],
-        ["Ark at that", "listen to that!"],
-        ["Council pop", "tap water."],
-        ["Ee-yar", "here you are."],
-        ["Leg it", "run away."],
-        ["Tea", "dinner, around 6/7pm."]
+        [
+          "Dreckly",
+          "The Cornish version of manana in Spanish. The task in question will be completed, however it is unlikely to be done in the immediate future."
+        ],
+        ["Proper job", "That's a very tasty pasty, thank you very much."],
+        [
+          "What a tuss",
+          "He isn't someone you'd want to share a pint of Spingo with. Often used to described MPs, councillors and the bloke who knocked over a pint in the pub last week."
+        ],
+        [
+          "Izzitgonrenurno?",
+          "The weather is looking slightly inclement. There is a chance of precipitation later. What do you think?."
+        ],
+        [
+          "Aright, my 'ansum?",
+          "How are you? (Can be used to greet strangers or friends alike)."
+        ],
+        ["Wasson me cock?", "Hello my friend, what are your plans at present?"],
+        ["Come on, y'buggers", "Come on, chaps."],
+        ["Giss on!", "Are you pulling my leg?"],
+        ["Wozelike?!", "Always up to something that little scamp."],
+        ["Dearovim!", "Oh, pour soul. He never has much luck."],
+        ["Geddon me cock!", "We've cracked it, fantastic effort."],
+        [
+          "Wasson shag?",
+          "This has nothing to do with sex. Quite simply, 'Hello, how are you?'"
+        ],
+        [
+          "Me luvver",
+          "You are not my lover. You are just a person who's walked in to my shop to buy a pasty. But I'm very happy to see you and this is a term of endearment."
+        ],
+        [
+          "Ibeleebn",
+          "Time for me to leave, gotta catch the last bus back to Newlyn."
+        ],
+        [
+          "I'm rufazrats",
+          "I'm not feeling my best. Often uttered the morning after a night on the Spingo at The Blue Anchor."
+        ],
+        [
+          "'E's teasy as'n'adder",
+          "Keep your distance, he's not in a good mood."
+        ],
+        ["Backofforillsmackee", "Continue to aggravate me at your peril."],
+        ["Wats splann?", "So what are we going to do today then?"],
+        ["Piddledowndidda?", "Was the rain torrential yesterday?"],
+        ["Pizendawn", "I wouldn't venture outside, it's rather wet."],
+        ["Bleddy 'ansum that is", "This pasty is really hitting the spot."],
+        ["Pastydiddy?", "Did you pass him on your travels?"],
+        ["Bettergorgitten", "It's ok, I shall go and retrieve the said item."],
+        ["Costymuchdida?", "How much did you pay for said item?"],
+        ["Diddyabm?", "Did you follow through with the purchase?"],
+        [
+          "'E'sanemmet",
+          "He's not from round here. He may have been born in Penzance, but his grandfather came from London."
+        ],
+        ["Ya gate bleddy tuss!", "Don't be so stupid you absolute fool."],
+        ["Likun diddy?", "Did you like it?"],
+        ["Fariza?", "How far will you be travelling on your planned voyage?"],
+        [
+          "'E's gone up north",
+          "He's crossed the Tamar. Or if you live in west Cornwall, he may have just gone to Truro. Crossing the Hayle river is technically probably east, but it's up north as far as people in St Just are concerned."
+        ],
+        ["Leave it abroad", "Don't shut the door."],
+        ["Killundiddy?", "Did you kill the person who knocked your pint over?"],
+        ["That was a fair old stank", "That walk was a considerable distance."],
+        ["Zackly", "Agreed."],
+        ["I kent membr", "I can't recall that I'm afraid."],
+        ["Gotunavee?", "Did you remember to purchase me a pasty?"],
+        ["I'llItellywot", "You're not going to believe this."],
+        [
+          "Diddynawn?",
+          "Are you familiar with the man in question and what is he like?"
+        ],
+        ["Pally widden, wazza?", "Was he a friend of yours?"],
+        ["Owaree pard?", "How are you mate?"],
+        [
+          "Fercrisaeik, ellydoinov?",
+          "What the heck were you thinking trying to drive on the A30 on a Saturday."
+        ],
+        [
+          "Mygar, tizzardlee on!",
+          "My god, the tourists can't park their cars there."
+        ],
+        ["Ullon yaw!", "Just wait a minute."],
+        ["Cain telly", "I'm afraid I can't share such details."],
+        ["Awright'n aree?", "Are you alright?"],
+        [
+          "Wossmarrwiddee?",
+          "You seem upset, is there anything I can do to help?"
+        ]
       ]
     },
     {
@@ -128,12 +254,117 @@
       "id": "edinburgh",
       "videos": ["JatocJtUQRM", "2lqS4JJ6Z9w"],
       "words": [
-        ["Aggin’", "complaining or moaning."],
-        ["Ark at that", "listen to that!"],
-        ["Council pop", "tap water."],
-        ["Ee-yar", "here you are."],
-        ["Leg it", "run away."],
-        ["Tea", "dinner, around 6/7pm."]
+        [
+          "Aye",
+          "Aye means yes, often replacing the latter in day-to-day life in Scotland. Conversely, ‘aye, right’ is used when expressing feelings of disbelief (think of it as the Scottish equivalent to ‘yeah, right’)."
+        ],
+        [
+          "Banter",
+          "Thrilling conversation, witty repartee or quips and wisecracks – all in all, just good chat."
+        ],
+        [
+          "Blether",
+          "Catching up, gossiping and talking for extended periods of time would all fall under the umbrella of ‘having a blether’. Best done over a cup of tea or dram of whisky."
+        ],
+        [
+          "Braw",
+          "Braw is a classic piece of Scottish slang. In the iconic comic strip Oor Wullie, the titular character frequently uses it to describe all things nice, brilliant and fantastic. Someone may have ‘braw banter’, or the view from your hotel room may be braw."
+        ],
+        [
+          "Chancer",
+          "A chancer is someone who quite boldly ‘chances their luck’ by taking risks and asking unreasonable requests. This usually comes with an air of cheeky self-awareness. That person who keeps asking to bum a cigarette but never buys them? Chancer."
+        ],
+        [
+          "Chore",
+          "To steal, nick or nab. If a person were to chore your stuff, then you can say goodbye to it."
+        ],
+        [
+          "Chum",
+          "A friend, pal or close acquaintance. To the Scottish, it also means to accompany someone somewhere. You can chum your mate to the train station, for example."
+        ],
+        ["Dinnae", "Don’t. As in: ‘Dinnae forget to pack an umbrella’."],
+        [
+          "Dreich",
+          "It is no lie that Scotland has its fair share of gloomy weather. For the days that are drab and grey, dreich is a just description."
+        ],
+        [
+          "Fae",
+          "From. You can be fae Edinburgh, fae Glasgow, fae Aberdeen – fae anywhere, really."
+        ],
+        [
+          "Fizzy juice",
+          "Soda, soft drink or carbonated sugar water. Scots would tell you there is no better fizzy juice than an ice-cold can of Irn-Bru."
+        ],
+        [
+          "Get tae",
+          "Used to tell someone to go away (sometimes followed by the F-word in particularly heated circumstances). It can also be used sarcastically when someone’s telling lies or exaggerating a story."
+        ],
+        [
+          "Haud yer wheesht",
+          "Used to tell someone to be quiet or shut up. The hallmark of Scottish motherhood since time immemorial."
+        ],
+        [
+          "Ken",
+          "To know. As in: ‘A ken Moira fae doon the road’. Conversely, ‘dinnae ken’ means you don’t know."
+        ],
+        [
+          "Laddie/Lassie",
+          "Boy and girl, usually on the younger side. Often said with endearment."
+        ],
+        [
+          "Messages",
+          "Supermarket or grocery items. Not related to postal workers."
+        ],
+        [
+          "Mony a mickle maks a muckle",
+          "This old adage offers shrewd business advice, stating that small amounts of money, when properly invested, eventually grow to pretty sums. Scrooge McDuck would approve. It’s also fun to say out loud."
+        ],
+        [
+          "Peely-wally",
+          "Pale and sickly. It’s also used to tease people with a lack of a suntan."
+        ],
+        [
+          "Pie",
+          "To outright ignore someone on purpose. People in Scotland generally take offence to being pied – but not to the delicious pastries you can find in their bakeries."
+        ],
+        ["Pure barry", "Utterly wonderful and fantastic. Braw 2.0."],
+        [
+          "Radge",
+          "Someone who is rambunctious or aggressive. ‘That’s well radge’ is used to describe crazy or unfair situations."
+        ],
+        [
+          "Rank",
+          "Disgusting and vile. Not to be confused with taxi ranks, where people queue up for a ride home."
+        ],
+        [
+          "Scran",
+          "Food, dishes or sustenance. Classic Scottish scran includes cullen skink, mince and tatties, and the ever-popular haggis."
+        ],
+        [
+          "Shan",
+          "Unfair. For example, if someone were to cut in front of a queue, or if a bacon roll only had half a piece inside. In these circumstances, you are well within your right to describe the injustice with ‘well shan’."
+        ],
+        [
+          "Skedaddle aff",
+          "To scurry along your merry way. It can also be used as a way to say ‘leave me alone’."
+        ],
+        [
+          "Skite",
+          "To go out on the skite means to have a (usually alcohol-fuelled) night out. Some of the most legendary nights on the skite take place in Edinburgh’s thriving bars, pubs and clubs."
+        ],
+        ["Steaming", "Very, very drunk. Synonym: reeking."],
+        [
+          "Tidy",
+          "The ultimate seal of approval, expressing one’s appreciation for something. As in: ‘That was some tidy scran’."
+        ],
+        [
+          "Wur tearin’ the tartan",
+          "To be engrossed in riveting conversation. In other words, ‘having a right old blether’."
+        ],
+        [
+          "Yer heid’s full o’ mince",
+          "It is not ideal to have a heid full o’ mince, as it implies that the words that come out of a person’s mouth are, quite frankly, nonsensical."
+        ]
       ]
     },
     {
@@ -142,16 +373,27 @@
         "lng": -5.347682
       },
       "country": "gb",
-      "name": "Gibraltar",
+      "name": "Gibraltar (Llanito)",
       "id": "gibraltar",
       "videos": ["fn_gUsYhDXs", "AcWhc6UF75Q"],
       "words": [
-        ["Aggin’", "complaining or moaning."],
-        ["Ark at that", "listen to that!"],
-        ["Council pop", "tap water."],
-        ["Ee-yar", "here you are."],
-        ["Leg it", "run away."],
-        ["Tea", "dinner, around 6/7pm."]
+        [
+          "Afolinarse",
+          "To fall in; reflecting Gibraltar's status as a military outpost."
+        ],
+        ["Corba", "Coal bag; from a time before ships were fueled by oil."],
+        ["Llamar para atrás", "To call back."],
+        ["Chakaru", "A bouncer, or chucker out."],
+        ["Chinga", "Chewing gum."],
+        ["Harampai", "A good party, supposedly from ham and"],
+        ["pie. Juva", "Vacuum cleaner, from Hoover."],
+        ["Pipería", "Piping."],
+        ["Saltipina", "Salted peanuts."],
+        ["A como están?", "how much are they?"],
+        ["Apparró", "the Upper Rock of Gibraltar"],
+        ["Cagona/Panaera", "a Gibraltarian one-pound note"],
+        ["Chico", "half pint of beer"],
+        ["Jipio", "a jiffy"]
       ]
     },
     {
@@ -160,16 +402,171 @@
         "lng": -4.251948
       },
       "country": "gb",
-      "name": "Glasgow",
+      "name": "Glasgow (Glaswegian)",
       "id": "glasgow",
       "videos": ["extq6S6WZQU", "SGKoekcThLE", "QyOZTqTIF6s", "_FSWlfcg6oA"],
       "words": [
-        ["Aggin’", "complaining or moaning."],
-        ["Ark at that", "listen to that!"],
-        ["Council pop", "tap water."],
-        ["Ee-yar", "here you are."],
-        ["Leg it", "run away."],
-        ["Tea", "dinner, around 6/7pm."]
+        ["dolly", "foolish, idiotic or stupid."],
+        [
+          "a doin",
+          "a person who has been attacked or let someone else get the better of them in a fight."
+        ],
+        ["be'n", "the location of an item."],
+        ["clatty", "dirty, not clean."],
+        [
+          "pish",
+          "an adjective used to describe anything that is generally not good."
+        ],
+        [
+          "warmer",
+          "used to describe a person who is not liked and who gets on your nerves."
+        ],
+        [
+          "hoachin'",
+          "busy or full of. Can also apply to a desperate need for something."
+        ],
+        ["swally", "alcoholic beverage. Short for swallow of."],
+        [
+          "bolt",
+          "used in a request to ask someone to get away from you. Can also be used when you don't think someone is telling you the truth."
+        ],
+        [
+          "gallus",
+          "someone who has a sense of arrogance. Can also be used to describe an attractive man."
+        ],
+        [
+          "growlin'",
+          "applies to when someone is showing a dislike towards you using their face to express their dislike of you."
+        ],
+        [
+          "knock",
+          "applies to the stealing of an item or an item that has not been paid for. Can also refer to a fake designer item, used as knock-off."
+        ],
+        [
+          "riddy",
+          "refers to your face going red as a result of embarrassment or can be used when you feel embarrassed for someone else."
+        ],
+        ["swatch", "to have a brief look at."],
+        [
+          "dinghied",
+          "this is used when someone ignores you or does not reply to something you asked them."
+        ],
+        [
+          "stoater ",
+          "used to describe someone so drunk they can't co-ordinate their movements enough to walk in a straight line. Sometimes used if you are lost and wandering around or as a derogatory term for somebody not very clever."
+        ],
+        [
+          "floater",
+          "a word used to describe an item of food 'floating' around your drink after you have ate."
+        ],
+        [
+          "mon",
+          "a word used to ask someone to come with you. It can also apply to when you want to show encouragement towards your football team or a band you like."
+        ],
+        [
+          "chebs",
+          "a word used to refer to when a woman shows off her chest. It is a word used in a similar context to 'taps aff' but applied to women."
+        ],
+        ["skelped", "a word used to describe slapping someone."],
+        [
+          "shady",
+          "an adjective used to describe something that is not legitimate or dodgy. It is also used to express injustice."
+        ],
+        [
+          "nigel",
+          "used to describe someone with no friends or when a situation is thrust upon you which means you end up being left alone."
+        ],
+        [
+          "peach",
+          "an adjective used to describe something that is amazing or good."
+        ],
+        ["burly", "a word used to describe a three point turn when driving."],
+        ["yaldi", "a word used to describe excitement."],
+        [
+          "ginger",
+          "a word we commonly used to describe fizzy juice, in the same way American's use the phrase soda or people in England say pop.  The word is also the adjective we use to describe someone with red hair."
+        ],
+        ["the dancin'", "a nightclub"],
+        [
+          "hairy/herry",
+          "usually used to describe a girl who is streetwise, has a reputation and is not a very nice person. She is the kind of person you would not want to be associated with. She perhaps has done something that goes against your own moral code."
+        ],
+        [
+          "Jakey",
+          "used to describe someone with an alcohol problem or someone who is a tramp or begger."
+        ],
+        ["gawpin", "an adjective used to describe a throbbing pain."],
+        [
+          "KB/Knockback",
+          "a word which is used when you are refused entry into somewhere particurlarly the dancin' (nightclub)."
+        ],
+        ["hackett", "an adjective used to describe an ugly person."],
+        [
+          "greetin'",
+          "used to describe the act of crying. Can also be used to describe a moaner in the context of 'greetin' face. The phrase 'greetin' face' often applies to wains (children) who cry a lot."
+        ],
+        ["A piece", "a sandwich."],
+        ["lumber", "a date or one night stand."],
+        ["sook", "an adjective to describe someone who sucks up to a person."],
+        [
+          "solid",
+          "an adjective to describe something being difficult or hard. Can also apply to a person who has a strong physique."
+        ],
+        [
+          "sound",
+          "a word used to ascert that something is cool. It can also be used to vouch for a person as being OK."
+        ],
+        [
+          "Wynchin",
+          "used to describe the act of kissing or French kissing. It is a generational word which has changed throughout the years. Every generation has their own version of the word."
+        ],
+        ["Jalky", "a person who is an alcoholic and a drug user."],
+        [
+          "handy",
+          "used in the context of someone being able to use their fists and protect themselves."
+        ],
+        [
+          "edgie",
+          "used to describe the act of keeping a lookout when you are up to no good. Can also be used as a warning that someone is coming who has authority and can give you into trouble such as the police or a teacher at school."
+        ],
+        ["mucker", "a friend."],
+        [
+          "hawd it/hawd on",
+          "hold it or hold on. Can be used for emphasis when you just want someone to repeat what they have just said."
+        ],
+        ["scale", "to spill something"],
+        ["doggin it", "used to describe the act of missing/skipping school."],
+        ["stank", "a word for drain."],
+        [
+          "yon/yonder",
+          "used as a variant of the or that. It is also occasionally thrown into a sentence but has no real meaning. It is short for younder."
+        ],
+        [
+          "boat hoose",
+          "a word used to describe which is not council and is mortgaged or owned by the person living in it. As a child, I was even confused thinking people in Glasgow lived in boats, I can't be the only one?"
+        ],
+        ["wurny", "were not."],
+        ["moonie", "slow dance."],
+        [
+          "Rake",
+          "Rake has two meanings. It can apply to searching for something everywhere you possibly think it could be. It can also mean someone who has a very thin frame."
+        ],
+        ["Shugh", "the gutter at the side of a pavement."],
+        ["pockie", "a mitt to keep your hands warm."],
+        ["munter", "ugly"],
+        ["dreepie", "to manoevre your way from a high height."],
+        ["scunnered", "fed up or not happy about a situation."],
+        ["scullery", "kitchen"],
+        [
+          "wains/weans",
+          "while bairns is the popular term for children in other parts of Scotland, us weegies call her kids wains."
+        ],
+        ["dod", "refers to a portion. Usually small in size."],
+        ["Coorie in", "means to cuddle up or cosy in."],
+        [
+          "outsider",
+          "used to describe the outside ends of a loaf of bread. It is the slice of bread that is that little bit thicker, and you feel you have achieved something when you manage to snag an outsider."
+        ]
       ]
     },
     {
@@ -218,12 +615,105 @@
       "id": "london",
       "videos": ["1WvIwkL8oLc", "LnjGNJ5JL8w"],
       "words": [
-        ["Aggin’", "complaining or moaning."],
-        ["Ark at that", "listen to that!"],
-        ["Council pop", "tap water."],
-        ["Ee-yar", "here you are."],
-        ["Leg it", "run away."],
-        ["Tea", "dinner, around 6/7pm."]
+        ["Adam and Eve", "believe"],
+        ["Alan Whickers", "knickers"],
+        ["apples and pears", "stairs"],
+        ["Artful Dodger", "lodger"],
+        ["Ascot Races", "braces"],
+        ["Aunt Joanna", "piano"],
+        ["Baked Bean", "Queen"],
+        ["Baker’s Dozen", "Cousin"],
+        ["Ball and Chalk", "Walk"],
+        ["Barnaby Rudge", "Judge"],
+        ["Barnet Fair", "hair"],
+        ["Barney Rubble", "trouble"],
+        ["Battlecruiser", "boozer"],
+        ["bees and honey", "money"],
+        ["bird lime", "time (in prison)"],
+        ["Boat Race", "face"],
+        ["Bob Hope", "soap"],
+        ["bottle and glass", "arse"],
+        ["Brahms and Liszt", "pissed (drunk)"],
+        ["Brass Tacks", "facts"],
+        ["Bread and Cheese", "sneeze"],
+        ["Bread and Honey", "money"],
+        ["Bricks and Mortar", "daughter"],
+        ["Bristol City", "breasts"],
+        ["Brown Bread", "dead"],
+        ["Bubble and Squeak", "Greek"],
+        ["Bubble Bath", "Laugh"],
+        ["butcher’s hook", "a look"],
+        ["Chalfont St. Giles", "piles"],
+        ["Chalk Farm", "arm"],
+        ["china plate", "mate (friend)"],
+        ["Cock and Hen", "ten"],
+        ["Cows and Kisses", "Missus (wife)"],
+        ["currant bun", "sun (also The Sun, a British"],
+        ["newspaper) custard and jelly", "telly (television)"],
+        ["Daisy Roots", "boots"],
+        ["Darby and Joan", "moan"],
+        ["Dicky bird", "word"],
+        ["Dicky Dirt", "shirt"],
+        ["Dinky Doos", "shoes"],
+        ["dog and bone", "phone"],
+        ["dog’s meat", "feet [from early 20th c.]"],
+        ["Duck and Dive", "skive"],
+        ["Duke of Kent", "rent"],
+        ["dustbin lid", "kid"],
+        ["Elephant’s Trunk", "drunk"],
+        ["Fireman’s Hose", "nose"],
+        ["Flowery Dell", "cell"],
+        ["Frog and Toad", "road"],
+        ["Gypsy’s kiss", "piss"],
+        ["half-inch", "pinch (to steal)"],
+        ["Hampton Wick", "prick"],
+        ["Hank Marvin", "starving"],
+        ["irish pig", "wig"],
+        ["Isle of Wight", "tights"],
+        ["jam-jar", "car"],
+        ["Jayme Gibbs Jimmy Riddle", "piddle"],
+        ["joanna", "piano (pronounced ‘pianna’ in Cockney)"],
+        ["Khyber Pass", "arse"],
+        ["Kick and Prance", "dance"],
+        ["Lady Godiva", "fiver"],
+        ["Laugh n a joke", "smoke"],
+        ["Lionel Blairs", "flares"],
+        ["Loaf of Bread", "head"],
+        ["loop the loop", "soup"],
+        ["Mickey Bliss", "piss"],
+        ["Mince Pies", "eyes"],
+        ["Mork and Mindy", "windy’"],
+        ["north and south", "mouth"],
+        ["Orchestra stalls", "balls"],
+        ["Pat and Mick", "sick"],
+        ["Peckham Rye", "tie"],
+        ["plates of meat", "feet"],
+        ["Pony and Trap", "crap"],
+        ["raspberry ripple", "nipple"],
+        ["raspberry tart", "fart"],
+        ["Roast Pork", "fork"],
+        ["Rosy Lee", "tea (drink)"],
+        ["Round the Houses", "trousers"],
+        ["Rub-a-Dub", "pub"],
+        ["Ruby Murray", "curry"],
+        ["Sausage Roll", "goal"],
+        ["septic tank", "Yank"],
+        ["sherbert (short for sherbert dab)", "cab (taxi)"],
+        ["Skin and Blister", "sister"],
+        ["Sky Rocket", "pocket"],
+        ["Sweeney Todd", "flying squad"],
+        ["syrup of figs", "wig (sic)"],
+        ["tables and chairs", "stairs"],
+        ["tea leaf", "thief"],
+        ["Tom and Dick", "sick"],
+        ["tom tit", "shit"],
+        ["tomfoolery", "jewellery"],
+        ["Tommy Trinder", "window"],
+        ["trouble and strife", "wife"],
+        ["two and eight", "state (of upset)"],
+        ["Vera Lynn", "gin"],
+        ["whistle and flute", "suit (of clothes)"],
+        ["Wonga", "cash"]
       ]
     },
     {
@@ -236,12 +726,68 @@
       "id": "manchester",
       "videos": ["GsrZk99s9LY", "eB2QbnyBe6s"],
       "words": [
-        ["Aggin’", "complaining or moaning."],
-        ["Ark at that", "listen to that!"],
-        ["Council pop", "tap water."],
-        ["Ee-yar", "here you are."],
-        ["Leg it", "run away."],
-        ["Tea", "dinner, around 6/7pm."]
+        ["Newtons", "Teeth"],
+        ["Chuddy or chud", "Chewing gum"],
+        ["Mither", "Bother"],
+        ["Gaggin'", "Thirsty"],
+        ["Salfords", "Socks"],
+        ["Dea", "Very"],
+        ["Ginnel", "Alley"],
+        ["Keks", "Trousers"],
+        ["Nice one/Top on", "Excellent"],
+        ["Fettled", "To fix"],
+        ["Mint", "Great"],
+        ["Nah", "No"],
+        ["Scrikin'", "Crying"],
+        ["Strop", "Tantrum"],
+        ["Daft 'apeth", "Fool"],
+        ["Snide", "Tight"],
+        ["'Angin'", "Disgusting"],
+        ["Bessies", "Best friends"],
+        ["Dibble", "Police"],
+        ["Cock", "Mate or dear"],
+        ["Sound", "Good or decent"],
+        ["Mingin'", "Unpleasant"],
+        ["Buzzin'", "Ecstatic"],
+        ["Cadge", "Scrounge"],
+        ["Mi stomach thinks mi throat's cut", " I'm feeling rather hungry "],
+        [
+          "Ast bin men bin mam?",
+          "Have the refuse collectors been yet, mother?"
+        ],
+        [
+          "Fish, chips and peas with pea wet ",
+          "Fish, chips and peas with the water they ooked in."
+        ],
+        [
+          "What did they cut your hair with, a knife and fork?",
+          "You have a rather poor haircut"
+        ],
+        ["Now then...", "General greeting"],
+        ["What it is, right... ", "Start to explain something"],
+        ["Nah man ", "Generic expression of disbelief"],
+        ["Swear down... ", "I am telling the truth"],
+        ["Our Kid", "Close friend or sibling"],
+        ["Ee are..", "Excuse me?"],
+        ["Get off and milk it.", "Generic greeting to a cyclist"],
+        [
+          "You don't get owt for nowt.",
+          "You cannot get something for nothing."
+        ],
+        ["Give your 'ead a wobble.", "You need to have a rethink."],
+        ["Well someone's seen their a**e 'aven't they?", "He is annoyed."],
+        ["You're peckin' me 'ead.", "You are annoying me."],
+        ["Stop ya chattin'.", "Stop talking a load of rubbish."],
+        ["Mad fer it.", "I am eager for a night out drinking."],
+        ["'Ave it!", "Celebration"],
+        ["Put wood int' 'ole.", "Shut the door."],
+        ["My gaff", "My house."],
+        ["Sat here like piffy on a rock.", "Sat waiting for someone else."],
+        ["He couldn't stop a pig in a ginnel.", "He has bandy-legs."],
+        ["Your hair is full o' lugs.", "Your hair is very knotted."],
+        ["That is bobbins.", "That's not very good."],
+        ["That is well bad", "That's a bad state of affairs"],
+        ["Gotta chip it's hair washing time.", "To leave your current location"]
       ]
     },
     {
@@ -254,12 +800,127 @@
       "id": "newcastle",
       "videos": ["w2woc46LXkw"],
       "words": [
-        ["Aggin’", "complaining or moaning."],
-        ["Ark at that", "listen to that!"],
-        ["Council pop", "tap water."],
-        ["Ee-yar", "here you are."],
-        ["Leg it", "run away."],
-        ["Tea", "dinner, around 6/7pm."]
+        ["geet walla", "very, very large"],
+        [
+          "Other words meaning same thing: muckle, howfing (as in \"howfing geet\") gadgie",
+          "adult male human"
+        ],
+        ["radgie", "temper tantrum"],
+        ["haddaway", "generic proclamation of negativity or disbelief"],
+        [
+          "howay man!",
+          "generic proclamation of exhortation or encouragement, can be both positive and negative"
+        ],
+        ["wey aye, man!", "generic proclamation of positivity or agreement"],
+        ["yem (also hyem)", "home"],
+        ["purely belta, beltas", "generic proclamation of joy"],
+        ["hinny", "wife, female companion or life partner"],
+        ["hoy", "please pass or throw"],
+        [
+          "clamming",
+          "starving, hungry to the point of being in desperate need of some sustenance"
+        ],
+        ["scran, bait", "food"],
+        ["marra", "friend, colleague, workmate"],
+        ["snout, tab", "cigarette"],
+        ["netty", "toilet facility"],
+        ["canny", "good"],
+        [
+          "Giz a bag o'crisps",
+          "Nothing to do with fried snacks, this one. Rather, it's a Geordie put-down, usually declining an advance of the romantic variety."
+        ],
+        ["dunch", "hit, like a car hitting the back of another"],
+        ["spelk", "splinter of wood of the sort that gets stuck in a finger"],
+        ["twock", "steal, take without owner's consent"],
+        ["jabs or sand shoes", "gym shoes commonly worn in school PE lessons"],
+        ["gob", "mouth"],
+        ["bairn", "child"],
+        ["set-a-had", "to light on fire"],
+        [
+          "hacky",
+          "dirty, but can also mean bone idle when used to prefix lazy"
+        ],
+        ["plodge", "to wade, paddle or splash in the shallows of the sea"],
+        ["an' all", "generic expression of emphasis, as well"],
+        ["clarts or clarty", "wet and muddy"],
+        [
+          "doylem",
+          "idiot, fool or person generally challenged in the common sense department"
+        ],
+        [
+          "micey",
+          "a person possibly showing signs of madness or mental instability"
+        ],
+        [
+          "Micky Burns tells us that \"gannin' akka\" means the same thing. scratcha",
+          "bed"
+        ],
+        [
+          "monkey's blood",
+          "the raspberry or strawberry flavour sauce used to garnish ice cream cones sold from a van (\"cornets\")"
+        ],
+        ["how, man", "generic exclamation indicating a warning or threat"],
+        [
+          "charva",
+          "chav, which is defined by the Urban Dictionary as \"a young lower-class person typified by brash and loutish behaviour and the wearing of (real or imitation) designer clothes\""
+        ],
+        [
+          "giz a deek",
+          "please let me have a quick peek or look at what you're doing"
+        ],
+        ["on ya honkas", "to crouch down low on all fours"],
+        [
+          "kets",
+          "sweets, usually the penny chew variety that you'd buy with your pocket money from a corner shop"
+        ],
+        ["workyticket", "someone being mischievous or downright annoying"],
+        [
+          "Can also be used as a verb, as in to work one's ticket, meaning to behaving in a vexing manner. shuggy boat",
+          "a two-person swing boat popular at seaside fairs during the 1980s"
+        ],
+        [
+          "spuggy",
+          "sparrow, but also refers to the role played by red-haired actress Lynydann Barrass in Byker Grove."
+        ],
+        ["up a height", "in a state of high emotion or upset"],
+        [
+          "mortal (also pronouned \"maaahrtal\")",
+          "drunk enough to adversely affect coordination and general wellbeing"
+        ],
+        [
+          "had ya pash",
+          "take your time, be patient (literally \"hold your patience, old fellow\")"
+        ],
+        [
+          "get wrong (also pronounced \"wrang\")",
+          "to be told off or get into trouble, usually by a parent, boss or other authority figure"
+        ],
+        [
+          "nebby",
+          "nosy or overly inquisitive, can also be used as a verb \"to neb\" into someone else's affairs"
+        ],
+        ["howk", "to pick or scratch"],
+        ["wazzock", "imbecile, buffoon or doylem"],
+        ["nappa", "head"],
+        ["pop", "fizzy drink"],
+        ["bubble", "to cry"],
+        ["dancers", "stairs"],
+        [
+          "willicks",
+          "winkles, or periwinkles, which is a small edible sea snail, usually found clinging to rocks at the beach"
+        ],
+        [
+          "fettle",
+          "various. \"Out of fettle\" means ill or not oneself, whereas \"in a fettle\" means in a bad mood, and the term can also be used as a verb, \"to fettle\", which means to sort out a problematic person or situation."
+        ],
+        ["dee as ya telt", "do as you're told"],
+        [
+          "bobby dazzla",
+          "someone who thinks a lot of themselves or looks rather special, either because of good looks or impressive clothes/accessories."
+        ],
+        ["paggered", "exhausted or extremely tired"],
+        [""],
+        ["stott", "to throw and bounce an object off something"]
       ]
     },
     {
