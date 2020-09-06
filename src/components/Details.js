@@ -5,6 +5,7 @@ import "./Details.scss";
 import { selectAccent, getAccent } from "../redux/actions";
 import DetailsWords from "./DetailsWords";
 import history from "../history";
+import DetailsVideos from "./DetailsVideos";
 export const Details = (props) => {
   const { accent, getAccent } = props;
   useEffect(() => {
@@ -53,6 +54,11 @@ export const Details = (props) => {
       <div className="accent-details-content">
         <Switch>
           <Route exact path={`/${accent.id}/words`} component={DetailsWords} />
+          <Route
+            exact
+            path={`/${accent.id}/videos`}
+            component={DetailsVideos}
+          />
         </Switch>
       </div>
       <button
