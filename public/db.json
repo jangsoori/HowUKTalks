@@ -916,10 +916,6 @@
       "videos": ["w2woc46LXkw"],
       "words": [
         ["geet walla", "very, very large"],
-        [
-          "Other words meaning same thing: muckle, howfing (as in \"howfing geet\") gadgie",
-          "adult male human"
-        ],
         ["radgie", "temper tantrum"],
         ["haddaway", "generic proclamation of negativity or disbelief"],
         [
@@ -1048,12 +1044,148 @@
       "id": "norfolk",
       "videos": ["G0wrI-vqh54", "GVLiQy_-lXY"],
       "words": [
-        ["Aggin’", "complaining or moaning."],
-        ["Ark at that", "listen to that!"],
-        ["Council pop", "tap water."],
-        ["Ee-yar", "here you are."],
-        ["Leg it", "run away."],
-        ["Tea", "dinner, around 6/7pm."]
+        ["abed", "in bed"],
+        ["afore", "before"],
+        ["afront", "in front"],
+        [
+          "agin",
+          "against, often when meaning 'next to' as in 'he live agin the Kings Arms'"
+        ],
+        ["ahind", "behind"],
+        ["ameant", "meant, ought, supposed, or should"],
+        ["arst", "ask/asked"],
+        ["atop", "on top"],
+        [
+          "atwin",
+          "between, as in 'He dornt know the difference atwin the two', or 'a rose atwin two thorns'"
+        ],
+        [
+          "a-Friday, a-Wednesday etc.",
+          "on Friday, as in 'I see him a-Friday', meaning I saw him on Friday, or 'I shall go to Carrer Rud a-Saturday"
+        ],
+        [
+          "backards",
+          "backwards, 'I hetter keep goin' backards and forrards up to Norwich"
+        ],
+        ["bishy barney bee", "ladybird"],
+        ["blar", "cry"],
+        [
+          "bor",
+          "(pronounced 'buh' in West Norfolk) a term of address, boy or neighbour often used as 'ah bor', an exclamatory confirmation, such as in the following exchange Jimmur "
+        ],
+        ["broach", "belch"],
+        ["cast", "can't get up\ncharleypig/barneypig", "wood louse/pillbug"],
+        ["chimbley", "chimney"],
+        [
+          "craze",
+          "nag. e.g.he kept crazing me to buy him sweets, or 'I'd craze her and craze her her'"
+        ],
+        ["crockin", "crying"],
+        ["cushies", "sweets"],
+        [
+          "deen",
+          "a 'sound', usually to emphasise that someone who was in pain did not cry out, as in 'when she bumped her head, she never made a deen'."
+        ],
+        ["dickey", "donkey"],
+        ["drant", "drawl"],
+        ["drift", "a lane"],
+        [
+          "dudder",
+          "shiver or tremble. It is not unique to Norfolk. Appears in the OED as 'dodder'."
+        ],
+        ["dussent", "dare not, as in 'he dussent do it'"],
+        [
+          "dwile",
+          "floor cloth, sometimes dishcloth, from the Dutch \"dweil\" meaning mop"
+        ],
+        ["feeby", "the sun"],
+        ["forrards", "forwards"],
+        ["fillum", "film/movie"],
+        ["gawp", "look or stare"],
+        ["guzunder", "goes-under – another word for chamber-pot"],
+        ["hap'orth", "halfpenny worth"],
+        [
+          "harnser",
+          "heron or more usually, a goose for which the Latin name is Anser"
+        ],
+        ["hant, hent, hint", "have not"],
+        ["hintut", "Isn't it, as either statement or question"],
+        ["huh", "also on the sosh"],
+        ["hopp'n toad", "frog"],
+        ["hull", "throw"],
+        ["jasper", "wasp"],
+        ["jiffle", "fidget"],
+        ["jip", "feeling, sense of pain, as in 'that give me jip'"],
+        ["jollificeartions", "to have fun"],
+        ["kewter", "money"],
+        [
+          "larn",
+          "to learn, used in place of to teach: \"he larned me how to ride a hoss\","
+        ],
+        ["loke", "alley; another word for lane"],
+        ["lollop", "progress slowly"],
+        ["lug", "ear"],
+        ["lummox", "clumsy or ungainly person"],
+        ["mardle", "to chat; village pond"],
+        ["mawkin", "scarecrow"],
+        ["mawther", "a young woman – usually derogatory"],
+        ["million", "marrow"],
+        [
+          "mine",
+          "my husband or wife, as in \"I shall see mine when I get home\""
+        ],
+        ["mob", "to tell off"],
+        [
+          "pingle",
+          "to mess about with food, especially when talking to children"
+        ],
+        ["pippen", "the weakling of a litter"],
+        ["pishmire/pishamere", "ant"],
+        ["puckaterry", "stress, panic"],
+        [
+          "pootrud",
+          "putrid, meaning awful, terrible, useless, particularly when applied to the performance of a sports player such as a footballer; 'the centre-forward was pootrud' means he had an awful game. This particular meaning of 'putrid' is, according to the OED, available in standard English, but it is rarely heard, the term almost always being associated with decomposition of organic material."
+        ],
+        ["push", "boil, pimple, spot, from the Dutch \"puist\""],
+        ["queer", "ill, but not unique to Norfolk"],
+        ["ranny,", "shrew"],
+        ["red beet", "beetroot"],
+        ["rubub,", "rhubarb"],
+        ["rum", "odd or unusual"],
+        ["scolder", "collective noun for a lot of people"],
+        ["shew", "show, shown showed"],
+        ["shink", "I should think so"],
+        ["shiver", "splinter"],
+        [
+          "slummockun",
+          "overweight and perhaps inclined to idleness, e.g. 'a slummockun gret mawther'."
+        ],
+        ["skoots", "The ever-diminishing rows on an irregular field."],
+        ["sky pilot", "parson"],
+        ["slar", "spread – usually meaning spread thickly or crudely"],
+
+        ["sosh", "also on the huh"],
+        ["span", "verb to kick"],
+        ["spike", "name for the workhouse"],
+        ["spinx", "chaffinch"],
+        ["squit", "nonsense"],
+        ["stannicle", "tadpole"],
+        ["stingy", "mean"],
+        [
+          "skew wiff",
+          "unlevel, on the huh/sosh, not straight; not unique to Norfolk"
+        ],
+        ["skerrick", "a morsel of food"],
+        ["suffun", "something"],
+        ["terl or tarl", "towel"],
+        [
+          "thack",
+          "push hard or hit – as in \"you betta thack it koz i'is a bit stiff\"",
+          "written on door of Fakenham post sorting office"
+        ],
+        ["titamatorta", "see-saw"],
+        ["troshel", "the threshold"],
+        ["tuffee", "toffee"]
       ]
     },
     {
@@ -1066,12 +1198,93 @@
       "id": "somerset",
       "videos": ["WnSrBNxNHVQ", "BErF_KpU5fw"],
       "words": [
-        ["Aggin’", "complaining or moaning."],
-        ["Ark at that", "listen to that!"],
-        ["Council pop", "tap water."],
-        ["Ee-yar", "here you are."],
-        ["Leg it", "run away."],
-        ["Tea", "dinner, around 6/7pm."]
+        [
+          "Kiddie",
+          "informal term for man, usually, but not necessarily, younger than you. Not a child, though."
+        ],
+        [
+          "Janner",
+          "person from Devon, particularly Plymouth. Used proudly by Janners, derogatorily by people from Somerset, Dorset, posh Plymouth and the Royal Navy."
+        ],
+        [
+          "Where's that to?",
+          "simply 'where is it?'. Used at the end of any locational query: 'where's 'ee to?' etc"
+        ],
+        [
+          "Lush",
+          "very nice/wonderful. Nothing to do with density of vegetation, or alcoholics. Can be used to describe everything from food or a picturesque view to an evening out or a good-looking person."
+        ],
+        [
+          "Gert (or Gurt)",
+          "literally: large, but has subtle dual meaning. As well as indicating size, it also means great, or very as in 'gurt lush'."
+        ],
+        [
+          "That's the badger",
+          "that is exactly the one I was looking for/ that is exactly what I meant."
+        ],
+        [
+          "Dimpsey",
+          "as in 'tis getting dimpsey' or 'it's a bit dimpsey up the Tor'. Dusk, the daily experience of it gradually getting dark, especially in summer. (Particularly Devon/Somerset)"
+        ],
+        [
+          "Babber",
+          "baby or small child. Also used affectionately for adults, as in 'alright, me babber?'"
+        ],
+        [
+          "Daps",
+          "most specifically the generally black plimsolls with no laces that are used by children for PE at primary school, but more widely any form of trainer, sneaker or sports shoe."
+        ],
+        ["Ark at 'Ee", "listen to him (with incredulity)."],
+        [
+          "Manchip",
+          "jam-filled, rolled pastry, almost exclusive to Bridgwater. Also known as a 'manchit'"
+        ],
+        ["Yertiz", "here it is!"],
+        ["Betwaddled", "confused."],
+        [
+          "Keener",
+          "someone who tries hard. Often used by schoolchildren to describe peers perceived to be 'nerdy'."
+        ],
+        [
+          "Grockles",
+          "tourists. Modern slang though, originating from a Torquay swimming pool in the 1960s, inspired by a Dandy comic strip. The true West Country word for tourists."
+        ],
+        [
+          "Shag",
+          "mate, or friend. As in 'alright, shag?'. Mainly Gloucestershire, north Wiltshire and Devon. In Gloucester itself, they use 'butty' for the same thing."
+        ],
+        [
+          "Dreckly",
+          "literally translated as 'directly', as in 'soon'. Used increasingly across the West Country to describe an as-yet undetermined moment in the future. In Cornwall, it is more of a one-word zen-like way of life."
+        ],
+        [
+          "Tent",
+          "it isn't. See also 'tint', 'int' and 'ent'. Which one you say will identify to other West Country folk whereabouts in the West Country you're from."
+        ],
+        [
+          "Kid",
+          "a term of endearment when greeting someone. Similar to mate. 'Alright, kid?'"
+        ],
+        [
+          "Pick 'ee out the stingers",
+          "usually associated with cricket, after a ball has been hit for hour. 'Shotttttt- pick 'ee out the stingers!'."
+        ],
+        [
+          "Innit",
+          "isn't it. A word often used at the end of a sentence. 'This cider's lush, innit?'"
+        ],
+        ["Mint", "really good. 'You seen that new film? Yeah, it's mint!'."],
+        [
+          "Scrumpy",
+          "cider. Although the name of several cider brands, scrumpy can also be used to describe any rough, strong cider."
+        ],
+        ["Mind", "a word used to emphasise a point. 'Be careful, mind'."],
+        ["Mucker", "mate."],
+        ["Grass", "snitch. 'Don't be a grass'"],
+        [
+          "Off-key",
+          "when someone appears to have a problem; be having a bad day. 'Max is a bit off-key today'."
+        ]
       ]
     },
     {
@@ -1084,12 +1297,434 @@
       "id": "yorkshire",
       "videos": ["2Qx_2I9QBaA", "6jitXnalclc", "jzAD2GLfaNU"],
       "words": [
-        ["Aggin’", "complaining or moaning."],
-        ["Ark at that", "listen to that!"],
-        ["Council pop", "tap water."],
-        ["Ee-yar", "here you are."],
-        ["Leg it", "run away."],
-        ["Tea", "dinner, around 6/7pm."]
+        [
+          "A’gate",
+          "‘get on your way’, ‘be off with you’. “Get a’gate or tha’ll be late fur school”"
+        ],
+        ["Ah’m", "I am. “Ah’m off t’ bog.”"],
+        ["Allus", "always. “I allus wash behind me ears.”"],
+        ["‘appen", "perhaps. “I’ll ‘appen that’s true.”"],
+        ["‘appin", "bed sheets."],
+        [
+          "Arse/arse end",
+          "posterior, back of something, bottom. Originating in old Norse dialect. “She looks like the arse end of a donkey”. 2. Used to describe a person behaving stupidly. “You’re such an arse at times.”"
+        ],
+        ["Aye", "yes. “Aye lass, I’ll be down for tea in ten.”"],
+        ["Ba’ht", "without. “On Ilkey Moor bah’t at” (without a hat)."],
+        ["Back end", "Autumn. “We’re waiting ‘til back end to go away.”"],
+        [
+          "Bagsy",
+          "to claim something for yourself. “Bagsy me in the front seat” (of the car)."
+        ],
+        ["Bairn", "child. “The poor bairn needs a nap.”"],
+        [
+          "Be reight",
+          "it’ll be okay. “Don’t worry about her, she’ll be reight.”"
+        ],
+        ["Beck", "a stream or brook. “We’re off fur a swim in’t beck.”"],
+        ["Bed side table, drawers and wardrobe", "you’ve eaten too much."],
+        ["Beefin’", "crying. “Stop beefin’ you big baby.”"],
+        ["Belt", "hit. “Shut up or I’ll belt yer!”"],
+        ["Berk", "idiot. “He’s a reet berk”."],
+        [
+          "Black bright",
+          "very dirty. “He was black bright when he got in from footie.”"
+        ],
+        ["Black Leg", "someone who wont join in the strike."],
+        ["Bog", "toilet. “I’m off t’ bog.”"],
+        ["Bogeyed", "half asleep."],
+        ["Boits.", "shoes or boots."],
+        ["Braunging", "bragging or boasting."],
+        ["Bray", "to hit someone. “I’m gonna bray you!”"],
+        [
+          "Brew",
+          "a cup of tea. Preferably Yorkshire tea. “Pour us a brew will yer love?”"
+        ],
+        ["Brussen", "Stubborn."],
+        ["Buint over", "pregnant."],
+        ["Button", "nose."],
+        [
+          "Butty",
+          "sandwich. “Ooh I think I’ll have a nice spam and egg butty for me breakfast.”"
+        ],
+        ["By his/her/their sen", "he/she/they are on their own."],
+        [
+          "Cack-handed",
+          "left handed. “No wonder ‘he can’t use tin opener properly, hes cack-handed.”"
+        ],
+        ["Cake ‘oil", "mouth. “Shut thi’ cake ‘oil”."],
+        ["Casey", "a football made from leather"],
+        ["Champion", "excellent. “Thanks for the cakes, they’re champion!”"],
+        ["Chelpin’", "talking. “Stop chelpin’ and get some work done.”"],
+        [
+          "Chippy/chip ‘ole",
+          "fish and chip shop. “You want owt from t’ chippy?”"
+        ],
+        ["Chuddy", "chewing gum. “Gis some chuddy mate.”"],
+        ["Chuffed", "happy, pleased. “I were well chuffed wi’ me new boots.”"],
+        ["Clarht-eead.", "Silly funny lad/lass."],
+        [
+          "Clarty",
+          "either dirty, muddy or sticky. “Ooh these cakes are lovely, the cream’s really clarty.”"
+        ],
+        ["Cloise.", "field (in that cloise)."],
+        ["Cod.", "a foreman/supervisor of an area in the work place."],
+        ["Cog", "to jump on the back of someone else’s bike for a lift."],
+        ["Coil / Coyl", "coal."],
+        [
+          "Coil oyle or coal ‘ole",
+          "coal cellar. “They’re in t’ coil oyle, Margaret.”"
+        ],
+        ["Corser edge", "Kerb."],
+        ["Creel", "Rack for drying clothes on with wooden slats."],
+        [
+          "Croggy",
+          "to give or catch a lift on the crossbar of a bicycle. “I’ll give ya a croggy to the shop if you want.”"
+        ],
+        [
+          "Dale",
+          "valley. “Off camping in the Dales this weekend, can’t wait!”"
+        ],
+        [
+          "Dee Dah",
+          "(someone from Sheffield) “nah den dee whats dah dooin?” “Now then you what are you doing?”."
+        ],
+        ["Delve", "to dig. “No need to delve into that any further.”"],
+        ["Derrived from liggin’", "Wasting your time with no purpose."],
+        [
+          "Ding",
+          "to hit heavily, to knock. “I dinged my car door on the wall getting out earlier. Gutted!”"
+        ],
+        ["Do it thisen / thi’ sen", "do it yourself."],
+        [
+          "Dollop",
+          "a lump of something, usually food. “Can I have a dollop of mash wi me pie please?”"
+        ],
+        [
+          "Down’t (road)",
+          "down the road. “Im off down’t road, will be back in an hour.”"
+        ],
+        ["Doy", "darling."],
+        ["‘ead", "head. “Whacked me ‘ead on t’ doorframe, it ‘urt like ‘ell.”"],
+        ["‘eck", "hell. “Ooh blooming ‘eck, are you alright?”"],
+        [
+          "Eeh by gum",
+          "‘oh my god’. “Eeh by gum, that were a near miss!”",
+          "Primarily used by Southerners mistakenly thinking we say it all the time."
+        ],
+        [
+          "Eh",
+          "what, or pardon, or an expression of confusion. “Eh? I didn’t hear you.”"
+        ],
+        [
+          "Ey up",
+          "‘watch out’, ‘be careful’, or to be used as a greeting, especially when seeing someone/something you weren’t expected. “Ey up Lad! Not seen you in ages.”"
+        ],
+        [
+          "Faffin’",
+          "messing about. “Stop faffin’ wi yer ‘air, it looks fine.”"
+        ],
+        [
+          "Fair t’middlin’",
+          "fair to middle. “How are you today Sandra?” “I’m fair t’middling, thanks for askin.”"
+        ],
+        [
+          "Fettle",
+          "to make, tidy or mend. “I’ll be in the garage, fettling the suspension on the motor.”"
+        ],
+        ["Fill thi boits / booits.", "enjoy your self."],
+        ["Fish and fernerkers", "Fish and chips."],
+        [
+          "Flaggin’",
+          "getting tired. “We ought to stop for a cuppa, I’m flaggin.”"
+        ],
+        ["Flags", "pavement."],
+        [
+          "Flippin’ eck",
+          "bloody hell, a term of shock or surprise. “Flippin’eck! Where’d you appear from?”"
+        ],
+        [
+          "Flit",
+          "to move house frequently. From old Norse. “We’re flitting again this summer.”"
+        ],
+        [
+          "Flummoxed",
+          "confused. “Well I’m flummoxed as to where me car keys went, I ‘ad ‘em in me ‘and a second ago.”"
+        ],
+        ["Frame yourself", "try harder."],
+        [
+          "Friggin’",
+          "a curse, alternative to flaming, bloody, etc. “Friggin’ ell, not again!”"
+        ],
+        ["Gaffer", "boss. “I’ll ask the gaffer if he can gimme the day off.”"],
+        ["Gander", "look. “Gis a gander at that!”"],
+        ["Gansey / Gansy", "A hand knitted woollen jumper worn by fishermen."],
+        ["Gi", "give."],
+        ["Gi o’er", "give over."],
+        ["Ginnel", "alleyway. “They ran off down the ginnel!”"],
+        ["Gip", "retch. “That reeks, it’s making me gip!”"],
+        ["Giz", "give me. “Giz it now!”"],
+        ["Goffs", "smells horrid. “Urgh, it goffs in ‘ere, has sommat died?”"],
+        [
+          "Goosegogs",
+          "gooseberries. “Got a load of gogs to mek jam wi’ this year.”"
+        ],
+        ["Gripe", "Fork."],
+        ["Guff", "fart. “Who’s guffed? It stinks!”"],
+        ["Hacky", "dirty or sticky."],
+        ["Haver", "oats. “Nice havercakes these.”"],
+        ["Hell Fire", "oh my god. “Hell Fire! When did this happen?”"],
+        ["Ice-shoggles", "icicles. “Look at the ice-shoggles on tat gutter.”"],
+        ["If in doubt-do nowt!", "if you doubt something then don’t do it."],
+        [
+          "In a bit",
+          "goodbye, see you later. “I’m off t’work Deirdre.” “All reight, in a bit then Bob.”"
+        ],
+        ["In t coil", "coal. “Darn coil oil where t’muck larts on t’winders”."],
+        ["In’t", "in the. “They’re in’t cupboard Bob.”"],
+        ["In’t puddin’ club", "pregnant."],
+        ["It sempt / sem’t reight good (Sheffield)", "it seemed really good."],
+        [
+          "Jammy",
+          "lucky. “I passed my exam with 90% and didn’t even revise. How jammy am I?”"
+        ],
+        ["Jiggered", "tired, exhausted. “Not tonight love, I’m jiggered.”"],
+        ["Kegs", "pants or trousers. “Where’re me kegs? I need em for work.”"],
+        [
+          "Ketty",
+          "nasty or rancid, referring to raw meat, offal or rubbish. From Icelandic or Swedish origin. “We can’t eat this chicken, it’s ketty.”"
+        ],
+        ["Kiddin’", "joking. “I’m only kiddin’. She didn’t really.”"],
+        ["Kittlin", "kitten. “Aww look at the little kittlin, in’t he cute?!”"],
+
+        [
+          "Laik, laiking, larking",
+          "playing. “Are you laikin today or you workin’?”"
+        ],
+        ["Lamp", "to strike or hit."],
+        ["Lass", "girl, wife or woman. “Our lass is coming out tonight too.”"],
+        ["Leave ‘er / ‘im / them be", "leave her / him / them alone."],
+        ["Liggers", "the hair combed over a bald patch."],
+        [
+          "Liggin’",
+          "to lie around in a gormless fashion, without purpose, lazy. “Stop liggin’ in bed”"
+        ],
+        ["Lop", "flea. “The dog was covered in lops when we found ‘im.”"],
+        [
+          "Lug",
+          "to pull or tug. “I had to lug me suitcase all the way home from t’ station.”"
+        ],
+        ["Lug ‘ole", "ear. “lend me your lug’oles, I have some news for yer.”"],
+        ["Lugs", "knots in your hair."],
+        ["Macca", "a big stone. “Wanged a macca”"],
+        ["Maftin’", "hot, clammy. “Open a window, it’s maftin’ in ‘ere.”"],
+        [
+          "Manky",
+          "disgusting. “That sandwich was manky, must have been in there a month!”"
+        ],
+        ["Mardy", "moody. “Stop being such a mardy arse and come out!”"],
+        ["Marra Tivvit", "the other one of a pair", "two of a kind."],
+        ["Mash", "to brew tea."],
+        ["Maungy", "whiny, sulky. “He’s always maungy when he’s hungry.”"],
+        ["Mebee", "may be or might do."],
+        ["Mi’sen", "myself. “I don’t like cricket much mi’sen.”"],
+        ["Mind", "be careful. “Mind how you go Beryl, it’s icy out there!”"],
+        ["Middlin’", "okay, fair, average. “I’m fair t’middlin, thanks.”"],
+        [
+          "Mingin’",
+          "disgusting. “Have you seen the state of his room? It’s mingin’.”"
+        ],
+        [
+          "Mithering",
+          "annoying or bothering. “Stop mithering me with your whining and go play outside, kids!”"
+        ],
+        [
+          "Monk on",
+          "to be grumpy. “He got dumped last week so he’s got a monk on.”"
+        ],
+        [
+          "Nah then",
+          "hello, dialect version of “Now Then”. “Nah then! What yer bin up t’?”"
+        ],
+        [
+          "Nang",
+          "troublesome and irritating. “Putting that engine back together was a nanglin’ task.”"
+        ],
+        ["Nar’n", "now then. “Nar’n, how’s tha been?”"],
+        ["Narky", "moody, sullen, sulky. “She’s narked off at sommat.”"],
+        ["Nay", "no. “Nay lad, it’s too late to go fishin’.”"],
+        ["Neb", "nose. “Keep your neb out of my business!”"],
+        [
+          "Nesh",
+          "to feel the cold. “Nesh southerners, can’t hack a Yorkshire winter!”"
+        ],
+        [
+          "Nithered, Nitherin’",
+          "very cold. “By ‘eck it’s nitherin’ out theer, am ruddy nithered!”"
+        ],
+        ["Nobbut", "“just, literaly, nothing but”."],
+        ["Now then", "hello. “Now then! How about a catch up over a pint?”"],
+        ["Nowt", "nothing. “I’ve got nowt to do today. I’m bored.”"],
+        ["‘ow do", "how do you do? “’ow do love? You well?”"],
+        ["Ocker", "Indecisive."],
+        ["Od thi dog back.", "wait a minute/slow down."],
+        [
+          "Oh aye?",
+          "oh really, or oh yes? “We’re getting married next year”. “Oh aye? Well congratulations!”"
+        ],
+        ["Oss (thisen)", "make an effort."],
+        ["Over Yonder", "over there."],
+        ["Owt", "anything. Opposite of nowt. “Have you bought owt for tea?”"],
+        [
+          "Pack it in",
+          "stop it. “Pack it in fighting you two or there’ll be no pocket money for a month.”"
+        ],
+        [
+          "Paggered",
+          "shattered, knackered, exhausted or broken. “No point turning that telly on, it’s paggered.”"
+        ],
+        ["Parky", "cold. “It was a bit parky earlier so I put the fire on.”"],
+        ["Pauping", "messing about."],
+        [
+          "Playin’ pop",
+          "to get angry with someone or tell them off. “When I got ‘ome our Keith were playin’ pop wi’ the neighbours for playin’ their music so loud.”"
+        ],
+        ["Pobs", "peices of bread dipped in milk."],
+        ["Pop", "fizzy drink “Get us a pop from t’ shop.”"],
+        [
+          "Pudgy",
+          "a fat or chubby person. “She was pudgy as a baby, but she’s a beauty now!”"
+        ],
+        ["Push Iron", "bicycle."],
+        [
+          "Put wood in t ‘ole",
+          "shut the door. “Put wood in t’ ole, you’re lettin’ t’cold in.”"
+        ],
+        ["Radged", "angry. “He were radged about his shed being broken into.”"],
+        ["Rank", "disgusting. “Urgh, Lancashire ‘ot pot? that’s rank.”"],
+        [
+          "Reckon",
+          "to think or figure out. “What you reckon to the news, eh?”"
+        ],
+        ["Reeks", "it smells bad. “Hmm it reeks of eggs in ‘ere.”"],
+        ["Reight/reet", "right or very. “We had a reight good night.”"],
+        [
+          "Riding",
+          "one of the three former administrative parts of Yorkshire."
+        ],
+        [
+          "Rig-welted",
+          "a sheep that has been stranded by lying on its back. “Go and help Mr. Wooly, he’s rig-welted.”"
+        ],
+        ["Roaring", "crying."],
+        [
+          "Sam up",
+          "to collect together. “Sam up your belongings, the bus is here.”"
+        ],
+        ["Sarnie", "sandwich. “Ham and mayo sarnies for lunch, my favourite.”"],
+        ["Scran", "food. “I can’t wait to get some scran, I’m starvin’.”"],
+        ["Sempt / Sem’t", "seemed."],
+        ["Sen", "Self."],
+        ["Shiverthewink", "a rascal."],
+        ["Si", "see."],
+        ["Si Thi", "see you."],
+        ["Si This", "See this."],
+        [
+          "Silin’",
+          "raining heavily. “I’m soaked, it’s silin’ it down out there!”"
+        ],
+        [
+          "Sithee",
+          "Goodbye, see you later, contraction of See Thee. “Aye lad, Sithee!“"
+        ],
+        ["Skift", "to move. “Skift on out of ‘ere.”"],
+        ["Snap", "food, usually a packed lunch."],
+        ["Snap Tin", "a sandwich box."],
+        ["Snek", "door threshold."],
+        ["Snek Lifter", "“do you fancy a quick sneck lifter?” (Pint)."],
+        ["Snicket", "alleyway. “Let’s take a shortcut through t’ snicket.”"],
+        [
+          "Spell/Spelk",
+          "splinter. “I’ve got a spell in my hand from the bramble bush.”"
+        ],
+        ["Spice", "sweets."],
+        ["Spogs", "sweets."],
+        ["Sprog", "child. “She’s having another sprog!”"],
+        ["Spuds", "potatoes. “Were having jacket spuds and beans for tea.”"],
+        [
+          "Spuggy / Spuggies / Spoggies / Spadge",
+          "sparrow. “I was the spuggy again on the bird table this morning.”"
+        ],
+        ["Stepmothers blessing.", "hang nail / a wick."],
+        ["Stoddy", "awkward or stubborn."],
+        ["Summat", "something. “I need summat to do at the weekend.”"],
+        ["Sup", "to drink. “Sup up, we’re off to the next pub!”"],
+        ["Swill", "drink."],
+        [
+          "T’werk",
+          "where Yorkshire people go from 9-5 Monday to Friday. “I’m off t’werk love.” 😉"
+        ],
+        ["Ta", "thank you. “Ta very much. Keep the change.”"],
+        ["Tarra", "goodbye. “Tarra love, see you next Sunday.”"],
+        ["Tek", "take. “You’re tekking the mick now.”"],
+        ["Tek n’gorm", "ignore him/her/it"],
+        ["Tha", "you. “Where’s tha been lad? We’ve been worried about ya.”"],
+        [
+          "Tha meks a better door than a winder",
+          "I can’t see what’s going on because you are in the way."
+        ],
+        ["Tha mun think on", "watch what you’re doing."],
+        [
+          "Theerz nowt s’queer as folk",
+          "There’s nothing so queer as folk",
+          "people do the strangest/most unexpected things."
+        ],
+        ["Thissen", "yourself. “How’d ya feel about it thissen?”"],
+        ["Thoil", "I couldn’t bear to. “I couldn’t thoil paying that much”"],
+        ["Traipsin’", "£I’m fed up o’ traipsin’ roun’ shops”."],
+        ["Trod", "garden footpath."],
+        ["Tuskey", "Rhubarb."],
+        [
+          "Tutty",
+          "An all round word for “a bit of something”. “You need to change the tutty in the engine” “put some tutty on that spot”"
+        ],
+        ["Twiny", "awkward minded and moany."],
+        ["Twonk", "An insult, similar connotations to “idiot”."],
+        [
+          "Tyke",
+          "Yorkshire person, sometimes used as an insult. “What a tyke he is!”"
+        ],
+        ["Un", "one. “He’s a reight un, that un.”"],
+        ["Underdrawin’", "loft. “Put this box in t’ underdrawin’.”"],
+        [
+          "Vexed",
+          "angry. “My car won’t be fixed for another 3 weeks. Man, I’m vexed.”"
+        ],
+        ["Waller", "person"],
+        ["Wang", "to throw. “Wang it over here!”"],
+        ["Wanged", "thrown."],
+        ["Wasak", "usless person/idiot."],
+        ["Wat yer playing at", "what are you doing."],
+        ["Watter", "water. “It’s only watter, don’t cry!”"],
+        ["Way’od or Way’up", "wait, hold up or hold on."],
+        ["Weerz", "where is."],
+        ["Weerzt", "where is the."],
+        ["Wemmel", "To wobble about in a precarious fashion."],
+        ["Where’s tha bin", "where have you been"],
+        ["While", "until. “I’m working while six tonight.”"],
+        [
+          "Wi or wee",
+          "with. as in ‘oo wer she wee war she wee im or wa she wee er sen’."
+        ],
+        ["Wick", "lively"],
+        ["Wist tha Bahn / bin / been", "where are you going?"],
+        [
+          "Yacker",
+          "acre, an ancient measurement of land. “The lord has 500 yackers in the dales.”"
+        ],
+        ["Yam", "home. “Im off yam.”"],
+        ["Ye", "you. “Where ye off to now?”"],
+        ["Yonder", "over there. “What’s that yonder I see?”"]
       ]
     }
   ]
