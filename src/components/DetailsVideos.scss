@@ -1,7 +1,39 @@
-.accent-video-wrapper {
+.accent-videos {
+  display: grid;
+  grid-template-rows: auto;
+  width: 100%;
+  gap: 3rem;
+}
+
+.accent-selected-video-wrapper {
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+}
+
+.accent-videos-list {
+  grid-row: 2/3;
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  gap: 2rem;
+  // height: max-content;
+  width: 100%;
+  height: 2rem;
+}
+
+.accent-video-thumbnail {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.2s;
+  &.video-active {
+    opacity: 1;
+  }
+  &:hover {
+    opacity: 1;
+  }
 }
