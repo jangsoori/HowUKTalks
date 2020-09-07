@@ -6,29 +6,44 @@ const DetailsVideos = (props) => {
   const [selectedVideo, setSelectedVideo] = useState(null);
   useEffect(() => {
     videos && setSelectedVideo(videos[0]);
-  }, []);
+  }, [videos]);
 
   if (!videos) {
     return null;
   }
+
+  const renderVideosThumbnails = () => {
+    return videos.map((video, index) => {
+      return (
+        <img
+          onClick={() => setSelectedVideo(videos && video)}
+          src={`https://img.youtube.com/vi/${videos && video}/1.jpg`}
+          alt=""
+          className={`accent-video-thumbnail ${
+            video === selectedVideo ? "video-active" : ""
+          }`}
+        />
+      );
+    });
+  };
   console.log(selectedVideo);
   return (
-    <React.Fragment>
-      <div className="accent-video-wrapper">
+    <div className="accent-videos">
+      <div className="accent-selected-video-wrapper">
         <iframe
-          className="accent-video"
+          className="accent-selected-video"
           width="420"
           height="315"
           src={`https://www.youtube.com/embed/${selectedVideo}`}
         ></iframe>
-
-        <img
-          onClick={() => setSelectedVideo(videos && videos[1])}
-          src={`https://img.youtube.com/vi/${videos && videos[1]}/0.jpg`}
-          alt=""
-        />
       </div>
-    </React.Fragment>
+      <div
+        className="accent-videos-list"
+        style={{ gridTemplateColumns: `repeat(5,1fr)` }}
+      >
+        {renderVideosThumbnails()}
+      </div>
+    </div>
   );
 };
 
