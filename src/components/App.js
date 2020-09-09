@@ -20,7 +20,7 @@ function App() {
   return (
     <React.Fragment>
       <Grid container direction="column" className={classes.grid}>
-        <Grid item>
+        <Grid style={{ zIndex: "2" }} item>
           <Header />
         </Grid>
         <Grid item xs>

@@ -85,6 +85,7 @@ export const Details = (props) => {
 
   //Tabs
   const tabs = [
+    { label: "Overview", path: `${props.match.url}` },
     { label: "Words", path: `${props.match.url}/words` },
     { label: "Videos", path: `${props.match.url}/videos` },
     { label: "People", path: `${props.match.url}/people` },
@@ -92,7 +93,7 @@ export const Details = (props) => {
 
   return (
     <div className={classes.root}>
-      <Card className={classes.card}>
+      <Card elevation={5} className={classes.card}>
         <Grid
           direction="column"
           alignContent="space-between"
@@ -130,21 +131,28 @@ export const Details = (props) => {
                   </Tabs>
                 </AppBar>
                 <div>
-                  <TabPanel value={value} index={0}>
+                  {/* <TabPanel value={value} index={0}>
+                    <Route
+                      exact
+                      path={`/${accent.id}/`}
+                      component={}
+                    />
+                  </TabPanel> */}
+                  <TabPanel value={value} index={1}>
                     <Route
                       exact
                       path={`/${accent.id}/words`}
                       component={DetailsWords}
                     />
                   </TabPanel>
-                  <TabPanel value={value} index={1}>
+                  <TabPanel value={value} index={2}>
                     <Route
                       exact
                       path={`/${accent.id}/videos`}
                       component={DetailsVideos}
                     />
                   </TabPanel>
-                  <TabPanel value={value} index={2}>
+                  <TabPanel value={value} index={3}>
                     Item Three
                   </TabPanel>
                 </div>
@@ -153,7 +161,11 @@ export const Details = (props) => {
           </Grid>
           <Grid item>
             <CardActions>
-              <Button onClick={() => history.push("/")} size="small">
+              <Button
+                onClick={() => history.push("/")}
+                variant="contained"
+                color="secondary"
+              >
                 Close
               </Button>
             </CardActions>
