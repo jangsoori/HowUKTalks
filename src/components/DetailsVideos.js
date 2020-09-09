@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
-import "./DetailsVideos.scss";
 const DetailsVideos = (props) => {
   const { videos } = props;
   const [selectedVideo, setSelectedVideo] = useState(null);

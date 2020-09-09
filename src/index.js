@@ -11,6 +11,9 @@ import { Provider } from "react-redux";
 import { createStore, applyMiddleware, compose } from "redux";
 import rootReducer from "./redux/reducers";
 import reduxThunk from "redux-thunk";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import { ThemeProvider } from "@material-ui/core/styles";
+import theme from "./theme";
 
 require("dotenv").config();
 
@@ -23,7 +26,10 @@ const store = createStore(
 ReactDOM.render(
   <Router history={history}>
     <Provider store={store}>
-      <App />
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <App />
+      </ThemeProvider>
     </Provider>
   </Router>,
   document.getElementById("root")
