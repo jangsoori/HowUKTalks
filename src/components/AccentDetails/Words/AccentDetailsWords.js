@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 import Pagination from "react-js-pagination";
 
-import "./DetailsWords.scss";
-export const DetailsWords = (props) => {
+export const AccentDetailsWords = (props) => {
   //Pagination hooks
   const [currentPage, setCurrentPage] = useState(1);
   const [wordsPerPage] = useState(15);
@@ -40,23 +39,28 @@ export const DetailsWords = (props) => {
   };
   return (
     <React.Fragment>
-      <table className="words-table">
-        <thead className="words-table-head">
-          <tr>
-            <th align="left">Phrase</th>
-            <th align="left">Explanation</th>
-          </tr>
-        </thead>
-        <tbody className="words-table-body">{renderWords()}</tbody>
-      </table>
-      <Pagination
-        activeClass="active-page"
-        activePage={currentPage}
-        itemsCountPerPage={wordsPerPage}
-        totalItemsCount={accent.words.length}
-        pageRangeDisplayed={5}
-        onChange={handlePageChange}
-      />
+      <section className="accent-details-title">
+        <h3>Vocabulary</h3>
+      </section>
+      <section className="accent-details-content">
+        <table className="words-table">
+          <thead className="words-table-head">
+            <tr>
+              <th align="left">Phrase</th>
+              <th align="left">Explanation</th>
+            </tr>
+          </thead>
+          <tbody className="words-table-body">{renderWords()}</tbody>
+        </table>
+        <Pagination
+          activeClass="active-page"
+          activePage={currentPage}
+          itemsCountPerPage={wordsPerPage}
+          totalItemsCount={accent.words.length}
+          pageRangeDisplayed={5}
+          onChange={handlePageChange}
+        />
+      </section>
     </React.Fragment>
   );
 };
@@ -67,4 +71,4 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = {};
 
-export default connect(mapStateToProps, mapDispatchToProps)(DetailsWords);
+export default connect(mapStateToProps, mapDispatchToProps)(AccentDetailsWords);

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
-import "./DetailsVideos.scss";
-const DetailsVideos = (props) => {
+
+const AccentDetailsVideos = (props) => {
   const { videos } = props;
   const [selectedVideo, setSelectedVideo] = useState(null);
   useEffect(() => {
@@ -28,22 +28,24 @@ const DetailsVideos = (props) => {
   };
   console.log(selectedVideo);
   return (
-    <div className="accent-videos">
-      <div className="accent-selected-video-wrapper">
-        <iframe
-          className="accent-selected-video"
-          width="420"
-          height="315"
-          src={`https://www.youtube.com/embed/${selectedVideo}`}
-        ></iframe>
-      </div>
-      <div
-        className="accent-videos-list"
-        style={{ gridTemplateColumns: `repeat(5,1fr)` }}
-      >
-        {renderVideosThumbnails()}
-      </div>
-    </div>
+    <React.Fragment>
+      <section className="accent-details-title">
+        <h3>Videos</h3>
+      </section>
+      <section className="accent-details-content">
+        <div className="accent-details-videos">
+          <iframe
+            className="accent-video-selected"
+            width="100%"
+            height="100%"
+            src={`https://www.youtube.com/embed/${selectedVideo}`}
+          ></iframe>
+          <div className="accent-videos-thumbnails">
+            {renderVideosThumbnails()}
+          </div>
+        </div>
+      </section>
+    </React.Fragment>
   );
 };
 
@@ -53,4 +55,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = {};
 
-export default connect(mapStateToProps, mapDispatchToProps)(DetailsVideos);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(AccentDetailsVideos);
