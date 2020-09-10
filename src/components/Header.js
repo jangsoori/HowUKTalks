@@ -8,6 +8,12 @@ const useStyles = makeStyles(() => ({
   root: {
     flexGrow: 1,
   },
+  title: {
+    fontWeight: "300",
+    "& > span": {
+      fontWeight: "400",
+    },
+  },
 }));
 export default function SiteHeader() {
   const classes = useStyles();
@@ -15,8 +21,8 @@ export default function SiteHeader() {
     <div className={classes.root}>
       <AppBar elevation={5} position="static" className={classes.theme}>
         <Toolbar>
-          <Typography variant="h5" color="inherit">
-            HowUKTalks
+          <Typography variant="h5" color="inherit" className={classes.title}>
+            How<span>UK</span>Talks
           </Typography>
         </Toolbar>
       </AppBar>
