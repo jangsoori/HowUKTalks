@@ -7,6 +7,7 @@ import history from "../../history";
 import AccentDetailsVideos from "./Videos/AccentDetailsVideos";
 import "./AccentDetailsWindow.scss";
 import AccentDetailsWindowContent from "./AccentDetailsWindowContent";
+import AccentDetailsMenu from "./AccentDetailsMenu";
 export const AccentDetailsWindow = (props) => {
   const { accent, getAccent } = props;
   useEffect(() => {
@@ -19,7 +20,9 @@ export const AccentDetailsWindow = (props) => {
     <section className="accent-details-window grid">
       <section className="accent-details-window-header grid">
         <h1 className="accent-details-window-header-text"> {accent.name}</h1>
-        <nav className="accent-details-window-header-menu">menu</nav>
+        <nav className="accent-details-window-header-menu">
+          <AccentDetailsMenu url={props.match.url} />
+        </nav>
       </section>
       <section className="accent-details-window-content">
         <AccentDetailsWindowContent accent={accent} />

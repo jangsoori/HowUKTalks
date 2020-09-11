@@ -36,8 +36,8 @@ const AccentDetailsVideos = (props) => {
         <div className="accent-details-videos">
           <iframe
             className="accent-video-selected"
-            width="100%"
-            height="100%"
+            // width="100%"
+            // height="100%"
             src={`https://www.youtube.com/embed/${selectedVideo}`}
           ></iframe>
           <div className="accent-videos-thumbnails">

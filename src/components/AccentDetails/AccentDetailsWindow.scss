@@ -37,4 +37,33 @@
 
 .accent-details-content {
   padding: 0 2rem;
+  padding-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  // height: 100%;
+  // width: 100%;
+}
+.accent-details-videos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto 1fr;
+  grid-column: 1/7;
+  row-gap: 5rem;
+  justify-content: center;
+  justify-items: center;
+}
+.accent-video-selected {
+  grid-column: 3/5;
+  grid-row: 1/2;
+}
+.accent-videos-thumbnails {
+  grid-column: 1/7;
+  grid-row: 2/3;
+}
+.accent-video-thumbnail {
+  background-color: black;
+  opacity: 0.2;
+  &.video-active {
+    opacity: 1;
+  }
 }
