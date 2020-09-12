@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
+<<<<<<< HEAD:src/components/AccentDetails/Videos/AccentDetailsVideos.js
 import AccentDetailsTabTitle from "../AccentDetailsTabTitle";
 
 const AccentDetailsVideos = (props) => {
+=======
+const DetailsVideos = (props) => {
+>>>>>>> master:src/components/DetailsVideos.js
   const { videos } = props;
   const [selectedVideo, setSelectedVideo] = useState(null);
   useEffect(() => {

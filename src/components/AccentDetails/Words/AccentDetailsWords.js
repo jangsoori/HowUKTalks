@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
+<<<<<<< HEAD:src/components/AccentDetails/Words/AccentDetailsWords.js
 import Pagination from "react-js-pagination";
 import AccentDetailsTabTitle from "../AccentDetailsTabTitle";
 
@@ -9,37 +10,49 @@ export const AccentDetailsWords = (props) => {
   const [wordsPerPage] = useState(15);
 
   //Only Render if accent is loaded
+=======
+import { makeStyles } from "@material-ui/core/styles";
+import Table from "@material-ui/core/Table";
+import TableBody from "@material-ui/core/TableBody";
+import TableCell from "@material-ui/core/TableCell";
+import TableContainer from "@material-ui/core/TableContainer";
+import TablePagination from "@material-ui/core/TablePagination";
+import TableHead from "@material-ui/core/TableHead";
+import TableRow from "@material-ui/core/TableRow";
+import Paper from "@material-ui/core/Paper";
+import { Grid } from "@material-ui/core";
+
+const useStyles = makeStyles({
+  container: {
+    maxHeight: "400px",
+  },
+});
+const DetailsWords = (props) => {
+  const [page, setPage] = React.useState(0);
+  const [rowsPerPage, setRowsPerPage] = React.useState(15);
+>>>>>>> master:src/components/DetailsWords.js
   const { accent } = props;
+  const classes = useStyles();
+
   if (!accent) {
     return null;
   }
-  //Calculate indexes of words to show
-  const indexOfLastWord = currentPage * wordsPerPage;
-  const indexOfFirstWord = indexOfLastWord - wordsPerPage;
-  const currentWords = accent.words.slice(indexOfFirstWord, indexOfLastWord);
-  //Calculate page
-  const handlePageChange = (pageNumber) => {
-    setCurrentPage(pageNumber);
-    console.log(`active page is ${pageNumber}`);
-  };
+  //pagination setup
 
-  //Render words
-  const renderWords = () => {
-    return currentWords.map((word) => {
-      return (
-        <tr className="words-table-body-word">
-          <td width="20%" data-column="Phrase" className="accent-word">
-            {word[0]}
-          </td>
-          <td data-column="Explanation" className="accent-explanation">
-            {word[1]}
-          </td>
-        </tr>
-      );
-    });
+  const handleChangePage = (event, newPage) => {
+    setPage(newPage);
   };
+  console.log(page);
+
+  const currentWords = accent.words.slice(
+    page * rowsPerPage,
+    page * rowsPerPage + rowsPerPage
+  );
+  //Only Render if accent is loaded
+
   return (
     <React.Fragment>
+<<<<<<< HEAD:src/components/AccentDetails/Words/AccentDetailsWords.js
       <AccentDetailsTabTitle title="Vocabulary" />
       <section className="accent-details-content">
         <table className="words-table">
@@ -60,10 +73,45 @@ export const AccentDetailsWords = (props) => {
           onChange={handlePageChange}
         />
       </section>
+=======
+      <TableContainer className={classes.container}>
+        <Table
+          padding="checkbox"
+          className={classes.table}
+          stickyHeader
+          aria-label="sticky table"
+        >
+          <TableHead>
+            <TableRow>
+              <TableCell style={{ width: "20%" }} align="left">
+                Phrase
+              </TableCell>
+              <TableCell align="left">Explanation</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {currentWords.map((word, index) => (
+              <TableRow key={index}>
+                <TableCell align="left">{word[0]}</TableCell>
+                <TableCell align="left">{word[1]}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
+
+      <TablePagination
+        component="div"
+        count={accent.words.length}
+        page={page}
+        onChangePage={handleChangePage}
+        rowsPerPageOptions={[]}
+        rowsPerPage={rowsPerPage}
+      />
+>>>>>>> master:src/components/DetailsWords.js
     </React.Fragment>
   );
 };
-
 const mapStateToProps = (state) => ({
   accent: state.selectedAccent,
 });

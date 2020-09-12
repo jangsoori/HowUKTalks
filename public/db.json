@@ -254,6 +254,7 @@
       "id": "norfolk",
       "videos": ["G0wrI-vqh54", "GVLiQy_-lXY"],
       "words": [
+<<<<<<< HEAD
         ["Afore", "Across"],
         ["Blar", "Cry"],
         ["Claggy", "Sticky"],
@@ -269,6 +270,150 @@
         ["Smur", "Drizzle"],
         ["Tidy", "Good"],
         ["Twizzle", "To spin"]
+=======
+        ["abed", "in bed"],
+        ["afore", "before"],
+        ["afront", "in front"],
+        [
+          "agin",
+          "against, often when meaning 'next to' as in 'he live agin the Kings Arms'"
+        ],
+        ["ahind", "behind"],
+        ["ameant", "meant, ought, supposed, or should"],
+        ["arst", "ask/asked"],
+        ["atop", "on top"],
+        [
+          "atwin",
+          "between, as in 'He dornt know the difference atwin the two', or 'a rose atwin two thorns'"
+        ],
+        [
+          "a-Friday, a-Wednesday etc.",
+          "on Friday, as in 'I see him a-Friday', meaning I saw him on Friday, or 'I shall go to Carrer Rud a-Saturday"
+        ],
+        [
+          "backards",
+          "backwards, 'I hetter keep goin' backards and forrards up to Norwich"
+        ],
+        ["bishy barney bee", "ladybird"],
+        ["blar", "cry"],
+        [
+          "bor",
+          "(pronounced 'buh' in West Norfolk) a term of address, boy or neighbour often used as 'ah bor', an exclamatory confirmation, such as in the following exchange Jimmur "
+        ],
+        ["broach", "belch"],
+        ["cast", "can't get up"],
+        ["chimbley", "chimney"],
+        [
+          "craze",
+          "nag. e.g.he kept crazing me to buy him sweets, or 'I'd craze her and craze her her'"
+        ],
+        ["crockin", "crying"],
+        ["cushies", "sweets"],
+        [
+          "deen",
+          "a 'sound', usually to emphasise that someone who was in pain did not cry out, as in 'when she bumped her head, she never made a deen'."
+        ],
+        ["dickey", "donkey"],
+        ["drant", "drawl"],
+        ["drift", "a lane"],
+        [
+          "dudder",
+          "shiver or tremble. It is not unique to Norfolk. Appears in the OED as 'dodder'."
+        ],
+        ["dussent", "dare not, as in 'he dussent do it'"],
+        [
+          "dwile",
+          "floor cloth, sometimes dishcloth, from the Dutch \"dweil\" meaning mop"
+        ],
+        ["feeby", "the sun"],
+        ["forrards", "forwards"],
+        ["fillum", "film/movie"],
+        ["gawp", "look or stare"],
+        ["guzunder", "goes-under – another word for chamber-pot"],
+        ["hap'orth", "halfpenny worth"],
+        [
+          "harnser",
+          "heron or more usually, a goose for which the Latin name is Anser"
+        ],
+        ["hant, hent, hint", "have not"],
+        ["hintut", "Isn't it, as either statement or question"],
+        ["huh", "also on the sosh"],
+        ["hopp'n toad", "frog"],
+        ["hull", "throw"],
+        ["jasper", "wasp"],
+        ["jiffle", "fidget"],
+        ["jip", "feeling, sense of pain, as in 'that give me jip'"],
+        ["jollificeartions", "to have fun"],
+        ["kewter", "money"],
+        [
+          "larn",
+          "to learn, used in place of to teach: \"he larned me how to ride a hoss\","
+        ],
+        ["loke", "alley; another word for lane"],
+        ["lollop", "progress slowly"],
+        ["lug", "ear"],
+        ["lummox", "clumsy or ungainly person"],
+        ["mardle", "to chat; village pond"],
+        ["mawkin", "scarecrow"],
+        ["mawther", "a young woman – usually derogatory"],
+        ["million", "marrow"],
+        [
+          "mine",
+          "my husband or wife, as in \"I shall see mine when I get home\""
+        ],
+        ["mob", "to tell off"],
+        [
+          "pingle",
+          "to mess about with food, especially when talking to children"
+        ],
+        ["pippen", "the weakling of a litter"],
+        ["pishmire/pishamere", "ant"],
+        ["puckaterry", "stress, panic"],
+        [
+          "pootrud",
+          "putrid, meaning awful, terrible, useless, particularly when applied to the performance of a sports player such as a footballer; 'the centre-forward was pootrud' means he had an awful game. This particular meaning of 'putrid' is, according to the OED, available in standard English, but it is rarely heard, the term almost always being associated with decomposition of organic material."
+        ],
+        ["push", "boil, pimple, spot, from the Dutch \"puist\""],
+        ["queer", "ill, but not unique to Norfolk"],
+        ["ranny,", "shrew"],
+        ["red beet", "beetroot"],
+        ["rubub,", "rhubarb"],
+        ["rum", "odd or unusual"],
+        ["scolder", "collective noun for a lot of people"],
+        ["shew", "show, shown showed"],
+        ["shink", "I should think so"],
+        ["shiver", "splinter"],
+        [
+          "slummockun",
+          "overweight and perhaps inclined to idleness, e.g. 'a slummockun gret mawther'."
+        ],
+        ["skoots", "The ever-diminishing rows on an irregular field."],
+        ["sky pilot", "parson"],
+        ["slar", "spread – usually meaning spread thickly or crudely"],
+
+        ["sosh", "also on the huh"],
+        ["span", "verb to kick"],
+        ["spike", "name for the workhouse"],
+        ["spinx", "chaffinch"],
+        ["squit", "nonsense"],
+        ["stannicle", "tadpole"],
+        ["stingy", "mean"],
+        [
+          "skew wiff",
+          "unlevel, on the huh/sosh, not straight; not unique to Norfolk"
+        ],
+        ["skerrick", "a morsel of food"],
+        ["suffun", "something"],
+        ["terl or tarl", "towel"],
+        [
+          "thack",
+          "push hard or hit – as in \"you betta thack it koz i'is a bit stiff\"",
+          "written on door of Fakenham post sorting office"
+        ],
+        ["titamatorta", "see-saw"],
+        ["troshel", "the threshold"],
+        ["tuffee", "toffee"]
+>>>>>>> master
       ]
     },
     {

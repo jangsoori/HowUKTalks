@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap");
 html {
   font-size: 62.5% !important;
@@ -20,5 +21,34 @@ body {
 }
 
 .map {
+=======
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+
+// html {
+//   font-size: 62.5% !important;
+//   line-height: 1.5;
+// }
+// .app {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: stretch;
+//   justify-content: stretch;
+//   height: 100vh;
+//   // width: 100vw;
+//   font-family: "Montserrat", sans-serif;
+// }
+
+// .content {
+//   height: 100%;
+//   justify-self: stretch;
+//   display: flex;
+//   align-items: stretch;
+//   justify-content: stretch;
+// }
+
+html,
+body,
+#root {
+>>>>>>> master
   height: 100%;
 }
