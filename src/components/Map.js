@@ -5,7 +5,7 @@ import Markers from "./Markers";
 import { Route } from "react-router-dom";
 
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
-import Details from "./Details";
+import AccentDetailsWindow from "./AccentDetails/AccentDetailsWindow";
 
 import Box from "@material-ui/core/Box";
 import { makeStyles } from "@material-ui/core/styles";
@@ -44,7 +44,7 @@ function Map(props) {
           >
             {/* Child components, such as markers, info windows, etc. */}
             <Markers data={data} />
-            <Route path="/:id" component={Details} />
+            <Route path="/:id" component={AccentDetailsWindow} />
 
             <></>
           </GoogleMap>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
 
 // html {
@@ -25,5 +26,29 @@
 html,
 body,
 #root {
+=======
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap");
+html {
+  font-size: 62.5% !important;
+  line-height: 1.5;
+}
+html,
+#root,
+body {
+  height: 100%;
+  color: white;
+}
+.app {
+  font-family: "Roboto", sans-serif;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.map {
+>>>>>>> fixNew
   height: 100%;
 }

@@ -18,6 +18,7 @@ const useStyles = makeStyles(() => ({
 export default function SiteHeader() {
   const classes = useStyles();
   return (
+<<<<<<< HEAD
     <div className={classes.root}>
       <AppBar elevation={5} position="static" className={classes.theme}>
         <Toolbar>
@@ -27,5 +28,12 @@ export default function SiteHeader() {
         </Toolbar>
       </AppBar>
     </div>
+=======
+    <header className="header grid">
+      <h1 className="header-logo">
+        How<span>UK</span>Talks
+      </h1>
+    </header>
+>>>>>>> fixNew
   );
 }
