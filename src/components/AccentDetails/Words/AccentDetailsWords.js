@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
 import Pagination from "react-js-pagination";
+import AccentDetailsTabTitle from "../AccentDetailsTabTitle";
 
 export const AccentDetailsWords = (props) => {
   //Pagination hooks
@@ -39,9 +40,7 @@ export const AccentDetailsWords = (props) => {
   };
   return (
     <React.Fragment>
-      <section className="accent-details-title">
-        <h3>Vocabulary</h3>
-      </section>
+      <AccentDetailsTabTitle title="Vocabulary" />
       <section className="accent-details-content">
         <table className="words-table">
           <thead className="words-table-head">

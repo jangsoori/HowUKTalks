@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
+import AccentDetailsTabTitle from "../AccentDetailsTabTitle";
 
 const AccentDetailsVideos = (props) => {
   const { videos } = props;
@@ -29,9 +30,7 @@ const AccentDetailsVideos = (props) => {
   console.log(selectedVideo);
   return (
     <React.Fragment>
-      <section className="accent-details-title">
-        <h3>Videos</h3>
-      </section>
+      <AccentDetailsTabTitle title="Videos" />
       <section className="accent-details-content">
         <div className="accent-details-videos">
           <iframe

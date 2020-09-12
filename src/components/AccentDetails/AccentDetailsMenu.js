@@ -11,18 +11,42 @@ export default function AccentDetailsMenu(props) {
         onClick={() => setMenuActive(!menuActive)}
         class={`fas fa-2x fa-ellipsis-${menuActive ? "h" : "v"}`}
       ></i>
-      <menu className="accent-details-menu-content">
-        <NavLink exact to={`${props.url}`}>
-          A
+      <menu
+        className={`accent-details-menu-content accent-details-menu-content${
+          menuActive ? "-active" : ""
+        }`}
+      >
+        <NavLink
+          className="accent-details-menu-link"
+          activeClassName="accent-details-menu-link-active"
+          exact
+          to={`${props.url}`}
+        >
+          <i class="fas fa-2x fa-info"></i>
         </NavLink>
-        <NavLink exact to={`${props.url}/words`}>
-          B
+        <NavLink
+          className="accent-details-menu-link"
+          activeClassName="accent-details-menu-link-active"
+          exact
+          to={`${props.url}/words`}
+        >
+          <i class="fas fa-2x fa-book"></i>
         </NavLink>
-        <NavLink exact to={`${props.url}/videos`}>
-          C
+        <NavLink
+          className="accent-details-menu-link"
+          activeClassName="accent-details-menu-link-active"
+          exact
+          to={`${props.url}/videos`}
+        >
+          <i class="fas fa-2x fa-video"></i>
         </NavLink>
-        <NavLink exact to={`${props.url}/people`}>
-          D
+        <NavLink
+          className="accent-details-menu-link"
+          activeClassName="accent-details-menu-link-active"
+          exact
+          to={`${props.url}/people`}
+        >
+          <i class="fas fa-2x fa-user-friends"></i>
         </NavLink>
       </menu>
     </nav>
