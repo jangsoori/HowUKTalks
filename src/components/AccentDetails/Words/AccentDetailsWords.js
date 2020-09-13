@@ -40,7 +40,7 @@ export const AccentDetailsWords = (props) => {
   };
   return (
     <React.Fragment>
-      <AccentDetailsTabTitle title="Some words" />
+      <AccentDetailsTabTitle title="Little vocabulary" />
       <section className="accent-details-content">
         <table className="words-table">
           <thead className="words-table-head">
