@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 import Pagination from "react-js-pagination";
 import AccentDetailsTabTitle from "../AccentDetailsTabTitle";
-
+import "./AccentDetailsWords.scss";
 export const AccentDetailsWords = (props) => {
   //Pagination hooks
   const [currentPage, setCurrentPage] = useState(1);
@@ -40,7 +40,7 @@ export const AccentDetailsWords = (props) => {
   };
   return (
     <React.Fragment>
-      <AccentDetailsTabTitle title="Vocabulary" />
+      <AccentDetailsTabTitle title="Some words" />
       <section className="accent-details-content">
         <table className="words-table">
           <thead className="words-table-head">
@@ -51,14 +51,15 @@ export const AccentDetailsWords = (props) => {
           </thead>
           <tbody className="words-table-body">{renderWords()}</tbody>
         </table>
-        <Pagination
+        {/* Pagination needed after expanding DB */}
+        {/* <Pagination
           activeClass="active-page"
           activePage={currentPage}
           itemsCountPerPage={wordsPerPage}
           totalItemsCount={accent.words.length}
           pageRangeDisplayed={5}
           onChange={handlePageChange}
-        />
+        /> */}
       </section>
     </React.Fragment>
   );
