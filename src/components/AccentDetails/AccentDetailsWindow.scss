@@ -29,7 +29,6 @@
 }
 .accent-details-title {
   @include body-text-mobile;
-  font-weight: bold;
   text-align: center;
   background-color: $color-primary;
   padding: 0.6rem 0;
