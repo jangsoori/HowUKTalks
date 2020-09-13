@@ -1,7 +1,9 @@
 @import "../../styles/colors";
 .accent-details-menu {
+  display: flex;
   i {
     cursor: pointer;
+    margin-left: 1rem;
   }
 }
 

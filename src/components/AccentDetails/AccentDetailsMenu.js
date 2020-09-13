@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./AccentDetailsMenu.scss";
+import history from "../../history";
 export default function AccentDetailsMenu(props) {
   const [menuActive, setMenuActive] = useState(false);
   console.log(props);
@@ -8,8 +9,12 @@ export default function AccentDetailsMenu(props) {
   return (
     <nav className="accent-details-menu">
       <i
+        className="fas fa-2x fa-times accent-details-close"
+        onClick={() => history.push("/")}
+      ></i>
+      <i
         onClick={() => setMenuActive(!menuActive)}
-        class={`fas fa-2x fa-ellipsis-${menuActive ? "h" : "v"}`}
+        className={`fas fa-2x fa-ellipsis-${menuActive ? "h" : "v"}`}
       ></i>
       <menu
         className={`accent-details-menu-content accent-details-menu-content${
