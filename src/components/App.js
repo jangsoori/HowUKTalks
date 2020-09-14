@@ -4,6 +4,7 @@ import Map from "./Map";
 import "./App.scss";
 import "../styles/utilites.scss";
 function App() {
+  //Ref used to close mobile menu
   const appRef = useRef();
   return (
     <div ref={appRef} className="app">
