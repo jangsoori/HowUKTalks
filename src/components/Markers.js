@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Marker } from "@react-google-maps/api";
 
 import { connect } from "react-redux";
 import { selectAccent } from "../redux/actions";
 import history from "../history";
-import { Redirect } from "react-router-dom";
 function Markers({ data, selectAccent }) {
   const renderMarkers = () => {
     return (
@@ -15,6 +14,7 @@ function Markers({ data, selectAccent }) {
           <Marker
             className="marker"
             title={accent.name}
+            key={accent.name}
             position={{ lat: accent.coords.lat, lng: accent.coords.lng }}
             onClick={(e) => {
               selectAccent(accent);

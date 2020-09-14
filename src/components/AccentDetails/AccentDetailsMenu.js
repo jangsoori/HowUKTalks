@@ -4,8 +4,7 @@ import "./AccentDetailsMenu.scss";
 import history from "../../history";
 export default function AccentDetailsMenu(props) {
   const [menuActive, setMenuActive] = useState(false);
-  console.log(props);
-  console.log(menuActive);
+
   return (
     <nav className="accent-details-menu">
       <i
@@ -27,7 +26,7 @@ export default function AccentDetailsMenu(props) {
           exact
           to={`${props.url}/words`}
         >
-          <i class="fas fa-2x fa-book"></i>
+          <i className="fas fa-2x fa-book"></i>
         </NavLink>
         <NavLink
           className="accent-details-menu-link"
@@ -35,7 +34,7 @@ export default function AccentDetailsMenu(props) {
           exact
           to={`${props.url}/videos`}
         >
-          <i class="fas fa-2x fa-video"></i>
+          <i className="fas fa-2x fa-video"></i>
         </NavLink>
         {/* <NavLink
           className="accent-details-menu-link"

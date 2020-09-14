@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import AccentDetailsTabTitle from "../AccentDetailsTabTitle";
-
+import "./AccentDetailsVideos.scss";
 const AccentDetailsVideos = (props) => {
   const { videos } = props;
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -17,6 +17,7 @@ const AccentDetailsVideos = (props) => {
     return videos.map((video, index) => {
       return (
         <img
+          key={index}
           onClick={() => setSelectedVideo(videos && video)}
           src={`https://img.youtube.com/vi/${videos && video}/1.jpg`}
           alt=""
@@ -27,7 +28,6 @@ const AccentDetailsVideos = (props) => {
       );
     });
   };
-  console.log(selectedVideo);
   return (
     <React.Fragment>
       <AccentDetailsTabTitle title="Videos" />

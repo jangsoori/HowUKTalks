@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
-import Pagination from "react-js-pagination";
 import AccentDetailsTabTitle from "../AccentDetailsTabTitle";
 import "./AccentDetailsWords.scss";
 export const AccentDetailsWords = (props) => {
@@ -20,14 +19,14 @@ export const AccentDetailsWords = (props) => {
   //Calculate page
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
-    console.log(`active page is ${pageNumber}`);
+    // console.log(`active page is ${pageNumber}`);
   };
 
   //Render words
   const renderWords = () => {
     return currentWords.map((word) => {
       return (
-        <tr className="words-table-body-word">
+        <tr key={word} className="words-table-body-word">
           <td width="20%" data-column="Phrase" className="accent-word">
             {word[0]}
           </td>

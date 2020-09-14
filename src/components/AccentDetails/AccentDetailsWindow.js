@@ -1,10 +1,7 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
-import { NavLink, Switch, Route } from "react-router-dom";
 import { selectAccent, getAccent } from "../../redux/actions";
-import AccentDetailsWords from "./Words/AccentDetailsWords";
-import history from "../../history";
-import AccentDetailsVideos from "./Videos/AccentDetailsVideos";
+
 import "./AccentDetailsWindow.scss";
 import AccentDetailsWindowContent from "./AccentDetailsWindowContent";
 import AccentDetailsMenu from "./AccentDetailsMenu";

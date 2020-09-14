@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import "./Map.scss";
 import { getAccents, selectAccent } from "../redux/actions";
@@ -10,7 +10,6 @@ import AccentDetailsWindow from "./AccentDetails/AccentDetailsWindow";
 
 function Map(props) {
   const { data, getAccents } = props;
-  console.log(props);
   useEffect(() => {
     getAccents();
   }, []);
