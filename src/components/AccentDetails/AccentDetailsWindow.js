@@ -1,15 +1,21 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
-import { selectAccent, getAccent } from "../../redux/actions";
+import {
+  selectAccent,
+  getAccent,
+  clearSelectedOnUnmount,
+} from "../../redux/actions";
 import "./AccentDetailsWindow.scss";
 import AccentDetailsWindowContent from "./AccentDetailsWindowContent";
 import AccentDetailsMenu from "./AccentDetailsMenu";
 import { useRouteMatch, withRouter } from "react-router-dom";
 export const AccentDetailsWindow = (props) => {
-  const { accent, getAccent } = props;
+  const { accent, getAccent, clearSelectedOnUnmount } = props;
   const match = useRouteMatch();
   useEffect(() => {
     getAccent(match.params.id);
+    //Clean up on unmount
+    return () => clearSelectedOnUnmount();
   }, []);
   if (!accent) {
     return null;
@@ -92,6 +98,8 @@ const mapStateToProps = (state, ownProps) => {
     accent: state.selectedAccent,
   };
 };
-export default connect(mapStateToProps, { selectAccent, getAccent })(
-  withRouter(AccentDetailsWindow)
-);
+export default connect(mapStateToProps, {
+  selectAccent,
+  getAccent,
+  clearSelectedOnUnmount,
+})(withRouter(AccentDetailsWindow));
