@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "./Header";
 import Map from "./Map";
 import "./App.scss";
 import "../styles/utilites.scss";
 function App() {
+  const appRef = useRef();
   return (
-    <div className="app">
+    <div ref={appRef} className="app">
       <Header />
       <main className="map">
-        <Map />
+        <Map appRef={appRef} />
       </main>
     </div>
   );
