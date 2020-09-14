@@ -25,14 +25,6 @@ export default function AccentDetailsMenu(props) {
           className="accent-details-menu-link"
           activeClassName="accent-details-menu-link-active"
           exact
-          to={`${props.url}`}
-        >
-          <i class="fas fa-2x fa-info"></i>
-        </NavLink>
-        <NavLink
-          className="accent-details-menu-link"
-          activeClassName="accent-details-menu-link-active"
-          exact
           to={`${props.url}/words`}
         >
           <i class="fas fa-2x fa-book"></i>
@@ -45,14 +37,14 @@ export default function AccentDetailsMenu(props) {
         >
           <i class="fas fa-2x fa-video"></i>
         </NavLink>
-        <NavLink
+        {/* <NavLink
           className="accent-details-menu-link"
           activeClassName="accent-details-menu-link-active"
           exact
           to={`${props.url}/people`}
         >
           <i class="fas fa-2x fa-user-friends"></i>
-        </NavLink>
+        </NavLink> */}
       </menu>
     </nav>
   );
