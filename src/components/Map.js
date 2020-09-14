@@ -33,7 +33,11 @@ function Map(props) {
           >
             {/* Child components, such as markers, info windows, etc. */}
             <Markers data={data} />
-            <Route path="/:id" component={AccentDetailsWindow} />
+            <Route
+              path="/:id"
+              render={() => <AccentDetailsWindow appRef={props.appRef} />}
+              // component={AccentDetailsWindow}
+            />
 
             <></>
           </GoogleMap>
