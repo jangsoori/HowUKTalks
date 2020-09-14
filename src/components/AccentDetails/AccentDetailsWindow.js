@@ -1,14 +1,15 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { selectAccent, getAccent } from "../../redux/actions";
-
 import "./AccentDetailsWindow.scss";
 import AccentDetailsWindowContent from "./AccentDetailsWindowContent";
 import AccentDetailsMenu from "./AccentDetailsMenu";
+import { useRouteMatch, withRouter } from "react-router-dom";
 export const AccentDetailsWindow = (props) => {
   const { accent, getAccent } = props;
+  const match = useRouteMatch();
   useEffect(() => {
-    getAccent(props.match.params.id);
+    getAccent(match.params.id);
   }, []);
   if (!accent) {
     return null;
@@ -18,7 +19,7 @@ export const AccentDetailsWindow = (props) => {
       <section className="accent-details-window-header grid">
         <h1 className="accent-details-window-header-text"> {accent.name}</h1>
         <nav className="accent-details-window-header-menu">
-          <AccentDetailsMenu url={props.match.url} />
+          <AccentDetailsMenu appRef={props.appRef} url={match.url} />
         </nav>
       </section>
       <section className="accent-details-window-content">
@@ -86,10 +87,11 @@ export const AccentDetailsWindow = (props) => {
   // </div>
 };
 
-const mapStateToProps = (state, ownProps) => ({
-  accent: state.accents[ownProps.match.params.id],
-});
-
+const mapStateToProps = (state, ownProps) => {
+  return {
+    accent: state.selectedAccent,
+  };
+};
 export default connect(mapStateToProps, { selectAccent, getAccent })(
-  AccentDetailsWindow
+  withRouter(AccentDetailsWindow)
 );
