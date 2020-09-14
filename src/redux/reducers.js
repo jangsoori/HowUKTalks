@@ -1,9 +1,10 @@
 import { combineReducers } from "redux";
 import _ from "lodash";
-function accentsReducer(state = [], action) {
+import accents from "../db";
+function accentsReducer(state = accents, action) {
   switch (action.type) {
     case "GET_ACCENTS": {
-      return { ...state, ..._.mapKeys(action.payload, "id") };
+      return accents;
     }
 
     default:
@@ -17,6 +18,9 @@ function selectedAccentReducer(state = null, action) {
       return action.payload;
     }
     case "GET_ACCENT": {
+      return action.payload;
+    }
+    case "CLEAR_SELECTED_ON_UNMOUNT": {
       return action.payload;
     }
 

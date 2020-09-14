@@ -1,23 +1,15 @@
 import axios from "axios";
-
+import accents from "../db";
 export const getAccents = () => {
-  return async function fetchData(dispatch) {
-    const response = await axios.get("http://localhost:3002/accents");
-    // const accents = [...Object.values(response.data.accents)];
-    dispatch({
-      type: "GET_ACCENTS",
-      payload: response.data.accents,
-    });
+  return {
+    type: "GET_ACCENTS",
+    // payload: "fetched accents",
   };
 };
 export const getAccent = (id) => {
-  return async function fetchData(dispatch) {
-    const response = await axios.get(`http://localhost:3002/accents/${id}`);
-
-    dispatch({
-      type: "GET_ACCENT",
-      payload: response.data,
-    });
+  return {
+    type: "GET_ACCENT",
+    payload: accents[id],
   };
 };
 
@@ -25,5 +17,12 @@ export const selectAccent = (accent) => {
   return {
     type: "SELECT_ACCENT",
     payload: accent,
+  };
+};
+
+export const clearSelectedOnUnmount = () => {
+  return {
+    type: "CLEAR_SELECTED_ON_UNMOUNT",
+    payload: null,
   };
 };
