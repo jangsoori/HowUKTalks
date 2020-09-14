@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const getAccents = () => {
   return async function fetchData(dispatch) {
-    const response = await axios.get("db.json");
+    const response = await axios.get("http://localhost:3002/accents");
     // const accents = [...Object.values(response.data.accents)];
     dispatch({
       type: "GET_ACCENTS",
@@ -12,7 +12,7 @@ export const getAccents = () => {
 };
 export const getAccent = (id) => {
   return async function fetchData(dispatch) {
-    const response = await axios.get(`db.json/accents/${id}`);
+    const response = await axios.get(`http://localhost:3002/accents/${id}`);
 
     dispatch({
       type: "GET_ACCENT",
