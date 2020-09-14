@@ -7,12 +7,12 @@ export default function AccentDetailsMenu(props) {
   const [menuActive, setMenuActive] = useState(false);
   //Handle clicking outside of menu, if clicked, close it
   const menuRef = useRef();
-  props.appRef.current.onclick = (e) => {
-    if (!menuRef.current.contains(e.target)) {
-      setMenuActive(false);
-      console.log("Clicked outside");
-    }
-  };
+  // props.appRef.current.onclick = (e) => {
+  //   if (!menuRef.current.contains(e.target)) {
+  //     setMenuActive(false);
+  //     console.log("Clicked outside");
+  //   }
+  // };
   return (
     <nav className="accent-details-menu">
       <i
