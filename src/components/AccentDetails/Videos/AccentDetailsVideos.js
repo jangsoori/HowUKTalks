@@ -33,12 +33,15 @@ const AccentDetailsVideos = (props) => {
       <AccentDetailsTabTitle title="Videos" />
       <section className="accent-details-content">
         <div className="accent-details-videos">
-          <iframe
-            className="accent-video-selected"
-            // width="100%"
-            // height="100%"
-            src={`https://www.youtube.com/embed/${selectedVideo}`}
-          ></iframe>
+          <div className="accent-video-selected-wrapper">
+            <iframe
+              className="accent-video-selected"
+              // width="100%"
+              // height="100%"
+              title="video"
+              src={`https://www.youtube.com/embed/${selectedVideo}`}
+            ></iframe>
+          </div>
           <div className="accent-videos-thumbnails">
             {renderVideosThumbnails()}
           </div>
