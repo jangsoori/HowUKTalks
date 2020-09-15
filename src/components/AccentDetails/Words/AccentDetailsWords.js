@@ -4,7 +4,7 @@ import AccentDetailsTabTitle from "../AccentDetailsTabTitle";
 import "./AccentDetailsWords.scss";
 export const AccentDetailsWords = (props) => {
   //Pagination hooks
-  const [currentPage, setCurrentPage] = useState(1);
+  // const [currentPage, setCurrentPage] = useState(1);
   const [wordsPerPage] = useState(15);
 
   //Only Render if accent is loaded
@@ -13,14 +13,15 @@ export const AccentDetailsWords = (props) => {
     return null;
   }
   //Calculate indexes of words to show
+  const currentPage = 1;
   const indexOfLastWord = currentPage * wordsPerPage;
   const indexOfFirstWord = indexOfLastWord - wordsPerPage;
   const currentWords = accent.words.slice(indexOfFirstWord, indexOfLastWord);
   //Calculate page
-  const handlePageChange = (pageNumber) => {
-    setCurrentPage(pageNumber);
-    // console.log(`active page is ${pageNumber}`);
-  };
+  // const handlePageChange = (pageNumber) => {
+  //   setCurrentPage(pageNumber);
+  //   // console.log(`active page is ${pageNumber}`);
+  // };
 
   //Render words
   const renderWords = () => {
@@ -39,7 +40,7 @@ export const AccentDetailsWords = (props) => {
   };
   return (
     <React.Fragment>
-      <AccentDetailsTabTitle title="Little vocabulary" />
+      <AccentDetailsTabTitle title="Examples" />
       <section className="accent-details-content">
         <table className="words-table">
           <thead className="words-table-head">
