@@ -1,9 +1,9 @@
 .accent-details-videos {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: max-content 1fr;
   grid-column: 1/7;
-  row-gap: 5rem;
+  row-gap: 1rem;
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -17,10 +17,11 @@
 .accent-videos-thumbnails {
   grid-column: 1/-1;
   grid-row: 2/3;
-  align-self: flex-start;
+  width: 100%;
+  display: grid;
   justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 120px));
 }
 .accent-video-thumbnail {
   background-color: black;
@@ -30,8 +31,5 @@
   // height: 50%;
   &.video-active {
     opacity: 1;
-  }
-  &:not(:last-child) {
-    margin-right: 1rem;
   }
 }
