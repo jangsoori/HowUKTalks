@@ -16,7 +16,7 @@ export const AccentDetailsWindow = (props) => {
     getAccent(match.params.id);
     //Clean up on unmount
     return () => clearSelectedOnUnmount();
-  }, []);
+  }, [getAccent, clearSelectedOnUnmount, match.params.id]); //This removes warning... not sure why
   if (!accent) {
     return null;
   }
