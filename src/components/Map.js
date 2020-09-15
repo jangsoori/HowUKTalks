@@ -12,7 +12,7 @@ function Map(props) {
   const { data, getAccents } = props;
   useEffect(() => {
     getAccents();
-  }, []);
+  });
   const containerStyle = {
     width: "100%",
     height: "100%",
