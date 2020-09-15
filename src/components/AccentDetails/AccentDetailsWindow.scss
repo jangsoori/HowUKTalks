@@ -11,8 +11,10 @@
   background: white;
   grid-template-rows: auto 1fr;
   .accent-details-window-header {
-    grid-template-columns: 1fr auto;
-    padding: 1.8rem;
+    grid-template-columns: auto 1fr;
+    column-gap: 1rem;
+
+    padding: 1.3rem 2rem;
     align-items: center;
     background-color: darken($color-primary, 10%);
     .accent-details-window-header-text {
@@ -26,7 +28,8 @@
 .accent-details-window-content {
   display: grid;
   grid-template-rows: auto 1fr;
-  gap: 4rem;
+  gap: 2rem;
+  overflow-y: auto;
 }
 .accent-details-title {
   @include body-text-mobile;
