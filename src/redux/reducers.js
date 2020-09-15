@@ -1,5 +1,4 @@
 import { combineReducers } from "redux";
-import _ from "lodash";
 import accents from "../db";
 function accentsReducer(state = accents, action) {
   switch (action.type) {

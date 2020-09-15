@@ -1,4 +1,3 @@
-import axios from "axios";
 import accents from "../db";
 export const getAccents = () => {
   return {
