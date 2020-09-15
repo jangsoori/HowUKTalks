@@ -6,10 +6,9 @@
   color: black;
   height: 70%;
   width: 100%;
-  font-size: calc(10px + 6 * ((100vw - 320px) / 680));
-
+  font-size: 1rem;
   thead {
-    font-size: calc(10px + 10 * ((100vw - 320px) / 680));
+    font-size: 2rem;
     font-weight: bold;
   }
 
