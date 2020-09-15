@@ -8,12 +8,13 @@
   width: 100%;
   height: 100%;
   z-index: 5;
-  background: rgba(0, 0, 0, 0.83);
+  background: white;
   grid-template-rows: auto 1fr;
   .accent-details-window-header {
     grid-template-columns: 1fr auto;
     padding: 1.8rem;
     align-items: center;
+    background-color: darken($color-primary, 10%);
     .accent-details-window-header-text {
       @include body-text-mobile;
       font-weight: bold;
