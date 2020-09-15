@@ -1,35 +1,13 @@
-import React, { useState, useRef } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import "./AccentDetailsMenu.scss";
 import history from "../../history";
 
 export default function AccentDetailsMenu(props) {
-  const [menuActive, setMenuActive] = useState(false);
-  //Handle clicking outside of menu, if clicked, close it
-  const menuRef = useRef();
-  // props.appRef.current.onclick = (e) => {
-  //   if (!menuRef.current.contains(e.target)) {
-  //     setMenuActive(false);
-  //     console.log("Clicked outside");
-  //   }
-  // };
   return (
     <nav className="accent-details-menu">
-      <i
-        className="fas fa-2x fa-times accent-details-close"
-        onClick={() => history.push("/")}
-      ></i>
-      <i
-        onClick={(e) => {
-          setMenuActive(!menuActive);
-        }}
-        className={`fas fa-2x fa-ellipsis-${menuActive ? "h" : "v"}`}
-      ></i>
       <menu
-        ref={menuRef}
-        className={`accent-details-menu-content accent-details-menu-content${
-          menuActive ? "-active" : ""
-        }`}
+        className={`accent-details-menu-content accent-details-menu-content`}
       >
         <NavLink
           className="accent-details-menu-link"
@@ -56,6 +34,10 @@ export default function AccentDetailsMenu(props) {
           <i class="fas fa-2x fa-user-friends"></i>
         </NavLink> */}
       </menu>
+      <i
+        className="fas fa-2x fa-times accent-details-close"
+        onClick={() => history.push("/")}
+      ></i>
     </nav>
   );
 }
